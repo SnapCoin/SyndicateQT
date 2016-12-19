@@ -96,8 +96,7 @@ public:
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
 		
 
-        vSeeds.push_back(CDNSSeedData("SnapCoinlabs.org", "dnsseed1.SnapCoinlabs.org"));
-		vSeeds.push_back(CDNSSeedData("SnapCoinlabs.org", "dnsseed2.SnapCoinlabs.org"));
+        vSeeds.push_back(CDNSSeedData("snapcoin.online", "seednode1.snapcoin.online"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 		
 
