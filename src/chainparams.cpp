@@ -62,8 +62,8 @@ public:
         pchMessageStart[2] = 0x8a;
         pchMessageStart[3] = 0xa9;
         vAlertPubKey = ParseHex("04cc14ab103c128c1d9cf4db2ebb1e8esdfsdfsdsdfsdfs1sdfsdf1cecb3bbfa813127fcb9dd9b84d44112081827ed7c49a648af9fe788ff41e316aee665879c553f099155299d6b54edd7e0");
-        nDefaultPort = 9999;
-        nRPCPort = 22348;
+        nDefaultPort = 26566;
+        nRPCPort = 26565;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
         const char* pszTimestamp = "June 13th, 2016: ISIS claims responsibility for the shooting massacre at Orlando FL gay night club yesterday morning leaving 49 dead & many wounded.";
