@@ -57,10 +57,10 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0xd2;
-        pchMessageStart[1] = 0x2d;
-        pchMessageStart[2] = 0x1c;
-        pchMessageStart[3] = 0xe5;
+        pchMessageStart[0] = 0xa6;
+        pchMessageStart[1] = 0x3c;
+        pchMessageStart[2] = 0x8a;
+        pchMessageStart[3] = 0xa9;
         vAlertPubKey = ParseHex("04cc24ab003c828cdd9cf4db2ebbde8esdfsdfsdsdfsdfsfsdfsdf1cecb3bbfa8b3127fcb9dd9b84d44112080827ed7c49a648af9fe788ff42e316aee665879c553f099e55299d6b54edd7e0");
         nDefaultPort = 9999;
         nRPCPort = 22348;
@@ -129,10 +129,10 @@ public:
         // The message start string is designed to be unlikely to occur in normal data.
         // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
         // a large 4-byte int at any alignment.
-        pchMessageStart[0] = 0x2f;
-        pchMessageStart[1] = 0xca;
-        pchMessageStart[2] = 0x4d;
-        pchMessageStart[3] = 0x3e;
+        pchMessageStart[0] = 0x4a;
+        pchMessageStart[1] = 0xee;
+        pchMessageStart[2] = 0xd8;
+        pchMessageStart[3] = 0xb9;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
         vAlertPubKey = ParseHex("9as8d7f9a8sd76f90a7df90a8sdfhadf8asdfnhasdfn7as9d8f7awefh9asdf89asd78fhasd89fhasdf789hasdf89");
         nDefaultPort = 27170;
