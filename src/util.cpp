@@ -77,7 +77,7 @@ bool fLiteMode = false;
 bool fEnableInstantX = true;
 int nInstantXDepth = 10;
 int nDarksendRounds = 2;
-int nAnonymizeSyndicateAmount = 1000;
+int nAnonymizeSnapCoinAmount = 1000;
 int nLiquidityProvider = 0;
 /** Spork enforcement enabled time */
 int64_t enforceMasternodePaymentsTime = 4085657524;
@@ -1041,7 +1041,7 @@ static std::string FormatException(std::exception* pex, const char* pszThread)
     char pszModule[MAX_PATH] = "";
     GetModuleFileNameA(NULL, pszModule, sizeof(pszModule));
 #else
-    const char* pszModule = "Syndicate";
+    const char* pszModule = "SnapCoin";
 #endif
     if (pex)
         return strprintf(
@@ -1071,13 +1071,13 @@ void PrintExceptionContinue(std::exception* pex, const char* pszThread)
 boost::filesystem::path GetDefaultDataDir()
 {
     namespace fs = boost::filesystem;
-    // Windows < Vista: C:\Documents and Settings\Username\Application Data\Syndicate
-    // Windows >= Vista: C:\Users\Username\AppData\Roaming\Syndicate
-    // Mac: ~/Library/Application Support/Syndicate
-    // Unix: ~/.Syndicate
+    // Windows < Vista: C:\Documents and Settings\Username\Application Data\SnapCoin
+    // Windows >= Vista: C:\Users\Username\AppData\Roaming\SnapCoin
+    // Mac: ~/Library/Application Support/SnapCoin
+    // Unix: ~/.SnapCoin
 #ifdef WIN32
     // Windows
-    return GetSpecialFolderPath(CSIDL_APPDATA) / "Syndicate";
+    return GetSpecialFolderPath(CSIDL_APPDATA) / "SnapCoin";
 #else
     fs::path pathRet;
     char* pszHome = getenv("HOME");
@@ -1089,10 +1089,10 @@ boost::filesystem::path GetDefaultDataDir()
     // Mac
     pathRet /= "Library/Application Support";
     fs::create_directory(pathRet);
-    return pathRet / "Syndicate";
+    return pathRet / "SnapCoin";
 #else
     // Unix
-    return pathRet / ".Syndicate";
+    return pathRet / ".SnapCoin";
 #endif
 #endif
 }
@@ -1141,7 +1141,7 @@ void ClearDatadirCache()
 
 boost::filesystem::path GetConfigFile()
 {
-    boost::filesystem::path pathConfigFile(GetArg("-conf", "Syndicate.conf"));
+    boost::filesystem::path pathConfigFile(GetArg("-conf", "SnapCoin.conf"));
     if (!pathConfigFile.is_complete()) pathConfigFile = GetDataDir(false) / pathConfigFile;
     return pathConfigFile;
 }
@@ -1186,7 +1186,7 @@ void ReadConfigFile(map<string, string>& mapSettingsRet,
 
 boost::filesystem::path GetPidFile()
 {
-    boost::filesystem::path pathPidFile(GetArg("-pid", "Syndicated.pid"));
+    boost::filesystem::path pathPidFile(GetArg("-pid", "SnapCoind.pid"));
     if (!pathPidFile.is_complete()) pathPidFile = GetDataDir() / pathPidFile;
     return pathPidFile;
 }

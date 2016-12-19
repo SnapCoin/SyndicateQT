@@ -203,10 +203,10 @@ Value stop(const Array& params, bool fHelp)
     if (fHelp || params.size() > 1)
         throw runtime_error(
             "stop\n"
-            "Stop Syndicate server.");
+            "Stop SnapCoin server.");
     // Shutdown will take long enough that the response should get back
     StartShutdown();
-    return "Syndicate server stopping";
+    return "SnapCoin server stopping";
 }
 
 
@@ -520,7 +520,7 @@ void StartRPCThreads()
     {
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
-        string strWhatAmI = "To use Syndicated";
+        string strWhatAmI = "To use SnapCoind";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))
@@ -529,13 +529,13 @@ void StartRPCThreads()
             _("%s, you must set a rpcpassword in the configuration file:\n"
               "%s\n"
               "It is recommended you use the following random password:\n"
-              "rpcuser=Syndicaterpc\n"
+              "rpcuser=SnapCoinrpc\n"
               "rpcpassword=%s\n"
               "(you do not need to remember this password)\n"
               "The username and password MUST NOT be the same.\n"
               "If the file does not exist, create it with owner-readable-only file permissions.\n"
               "It is also recommended to set alertnotify so you are notified of problems;\n"
-              "for example: alertnotify=echo %%s | mail -s \"Syndicate Alert\" admin@foo.com\n"),
+              "for example: alertnotify=echo %%s | mail -s \"SnapCoin Alert\" admin@foo.com\n"),
                 strWhatAmI,
                 GetConfigFile().string(),
                 EncodeBase58(&rand_pwd[0],&rand_pwd[0]+32)),
@@ -868,7 +868,7 @@ json_spirit::Value CRPCTable::execute(const std::string &strMethod, const json_s
 }
 
 std::string HelpExampleCli(string methodname, string args){
-    return "> Syndicated " + methodname + " " + args + "\n";
+    return "> SnapCoind " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args){

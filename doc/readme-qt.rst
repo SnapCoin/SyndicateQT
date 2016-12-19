@@ -1,14 +1,14 @@
-Syndicate-qt: Qt5 GUI for Syndicate
+SnapCoin-qt: Qt5 GUI for SnapCoin
 ===============================
 
 Linux
 -------
-https://github.com/Syndicatedev/Syndicatecoin/blob/master/doc/build-unix.md
+https://github.com/SnapCoindev/SnapCoincoin/blob/master/doc/build-unix.md
 
 Windows
 --------
-https://github.com/Syndicatedev/Syndicatecoin/blob/master/doc/build-msw.md
+https://github.com/SnapCoindev/SnapCoincoin/blob/master/doc/build-msw.md
 
 Mac OS X
 --------
-https://github.com/Syndicatedev/Syndicatecoin/blob/master/doc/build-osx.md
+https://github.com/SnapCoindev/SnapCoincoin/blob/master/doc/build-osx.md

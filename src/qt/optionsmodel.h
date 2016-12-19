@@ -34,7 +34,7 @@ public:
         MinimizeCoinAge,   // bool
         UseBlackTheme,     // bool
         DarksendRounds,    // int
-        AnonymizeSyndicateAmount, //int
+        AnonymizeSnapCoinAmount, //int
         OptionIDRowCount,
     };
 
@@ -66,7 +66,7 @@ signals:
     void reserveBalanceChanged(qint64);
     void coinControlFeaturesChanged(bool);
     void darksendRoundsChanged(int);
-    void AnonymizeSyndicateAmountChanged(int);
+    void AnonymizeSnapCoinAmountChanged(int);
 };
 
 #endif // OPTIONSMODEL_H

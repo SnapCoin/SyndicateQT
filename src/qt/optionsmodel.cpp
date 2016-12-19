@@ -51,11 +51,11 @@ void OptionsModel::Init()
     if (!settings.contains("nDarksendRounds"))
         settings.setValue("nDarksendRounds", 2);
 
-    if (!settings.contains("nAnonymizeSyndicateAmount"))
-        settings.setValue("nAnonymizeSyndicateAmount", 1000);
+    if (!settings.contains("nAnonymizeSnapCoinAmount"))
+        settings.setValue("nAnonymizeSnapCoinAmount", 1000);
 
     nDarksendRounds = settings.value("nDarksendRounds").toLongLong();
-    nAnonymizeSyndicateAmount = settings.value("nAnonymizeSyndicateAmount").toLongLong();
+    nAnonymizeSnapCoinAmount = settings.value("nAnonymizeSnapCoinAmount").toLongLong();
 
     // These are shared with core Bitcoin; we want
     // command-line options to override the GUI settings:
@@ -70,8 +70,8 @@ void OptionsModel::Init()
 
     if (settings.contains("nDarksendRounds"))
         SoftSetArg("-darksendrounds", settings.value("nDarksendRounds").toString().toStdString());
-    if (settings.contains("nAnonymizeSyndicateAmount"))
-        SoftSetArg("-anonymizeSyndicateamount", settings.value("nAnonymizeSyndicateAmount").toString().toStdString());
+    if (settings.contains("nAnonymizeSnapCoinAmount"))
+        SoftSetArg("-anonymizeSnapCoinamount", settings.value("nAnonymizeSnapCoinAmount").toString().toStdString());
 }
 
 int OptionsModel::rowCount(const QModelIndex & parent) const
@@ -122,8 +122,8 @@ QVariant OptionsModel::data(const QModelIndex & index, int role) const
             return QVariant(fCoinControlFeatures);
         case DarksendRounds:
             return QVariant(nDarksendRounds);
-        case AnonymizeSyndicateAmount:
-            return QVariant(nAnonymizeSyndicateAmount);
+        case AnonymizeSnapCoinAmount:
+            return QVariant(nAnonymizeSnapCoinAmount);
         case MinimizeCoinAge:
             return settings.value("fMinimizeCoinAge", GetBoolArg("-minimizecoinage", false));
         case UseBlackTheme:
@@ -220,10 +220,10 @@ bool OptionsModel::setData(const QModelIndex & index, const QVariant & value, in
             settings.setValue("nDarksendRounds", nDarksendRounds);
             emit darksendRoundsChanged(nDarksendRounds);
             break;
-        case AnonymizeSyndicateAmount:
-            nAnonymizeSyndicateAmount = value.toInt();
-            settings.setValue("nAnonymizeSyndicateAmount", nAnonymizeSyndicateAmount);
-            emit AnonymizeSyndicateAmountChanged(nAnonymizeSyndicateAmount);
+        case AnonymizeSnapCoinAmount:
+            nAnonymizeSnapCoinAmount = value.toInt();
+            settings.setValue("nAnonymizeSnapCoinAmount", nAnonymizeSnapCoinAmount);
+            emit AnonymizeSnapCoinAmountChanged(nAnonymizeSnapCoinAmount);
             break;
         default:
             break;

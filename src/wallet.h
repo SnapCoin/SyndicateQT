@@ -1174,7 +1174,7 @@ public:
 
 
 
-/** Internal Syndicates.
+/** Internal SnapCoins.
  * Database key is acentry<account><counter>.
  */
 class CAccountingEntry

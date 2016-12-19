@@ -96,13 +96,13 @@ public:
         base58Prefixes[EXT_SECRET_KEY] = list_of(0x04)(0x88)(0xAD)(0xE4);
 		
 
-        vSeeds.push_back(CDNSSeedData("syndicatelabs.org", "dnsseed1.syndicatelabs.org"));
-		vSeeds.push_back(CDNSSeedData("syndicatelabs.org", "dnsseed2.syndicatelabs.org"));
+        vSeeds.push_back(CDNSSeedData("SnapCoinlabs.org", "dnsseed1.SnapCoinlabs.org"));
+		vSeeds.push_back(CDNSSeedData("SnapCoinlabs.org", "dnsseed2.SnapCoinlabs.org"));
         convertSeeds(vFixedSeeds, pnSeed, ARRAYLEN(pnSeed), nDefaultPort);
 		
 
         nPoolMaxTransactions = 3;
-        strDarksendPoolDummyAddress = "SyndicateDarksendPoo1DummyAdy4viSr";
+        strDarksendPoolDummyAddress = "SnapCoinDarksendPoo1DummyAdy4viSr";
         nLastPOWBlock = 56007;
         nPOSStartBlock = 180;
     }

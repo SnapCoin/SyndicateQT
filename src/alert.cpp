@@ -239,7 +239,7 @@ bool CAlert::ProcessAlert(bool fThread)
             {
                 // Alert text should be plain ascii coming from a trusted source, but to
                 // be safe we first strip anything not in safeChars, then add single quotes around
-                // the whole string before passing it to the Syndicate:
+                // the whole string before passing it to the SnapCoin:
                 std::string singleQuote("'");
                 std::string safeStatus = SanitizeString(strStatusBar);
                 safeStatus = singleQuote+safeStatus+singleQuote;

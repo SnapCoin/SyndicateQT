@@ -95,7 +95,7 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     nWeight(0)
 {
     resize(500, 500);
-    setWindowTitle(tr("Syndicate"));
+    setWindowTitle(tr("SnapCoin"));
 #ifndef Q_OS_MAC
     qApp->setWindowIcon(QIcon(":icons/bitcoin"));
     setWindowIcon(QIcon(":icons/bitcoin"));
@@ -103,8 +103,8 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     //setUnifiedTitleAndToolBarOnMac(true);
     QApplication::setAttribute(Qt::AA_DontShowIconsInMenus);
 #endif
-    setObjectName("Syndicate");
-    setStyleSheet("#Syndicate {background-color: qradialgradient(cx: 0, cy: 0, fx: 0, fy: 0, radius: 0.1, stop: 0 #676C76, stop: 1 #676C76);}");
+    setObjectName("SnapCoin");
+    setStyleSheet("#SnapCoin {background-color: qradialgradient(cx: 0, cy: 0, fx: 0, fy: 0, radius: 0.1, stop: 0 #676C76, stop: 1 #676C76);}");
 
     // Accept D&D of URIs
     setAcceptDrops(true);
@@ -280,7 +280,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(receiveCoinsAction);
 
     sendCoinsAction = new QAction(QIcon(":/icons/send"), tr("&Send"), this);
-    sendCoinsAction->setToolTip(tr("Send coins to a Syndicate address"));
+    sendCoinsAction->setToolTip(tr("Send coins to a SnapCoin address"));
     sendCoinsAction->setCheckable(true);
     sendCoinsAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_3));
     tabGroup->addAction(sendCoinsAction);
@@ -298,7 +298,7 @@ void BitcoinGUI::createActions()
     tabGroup->addAction(addressBookAction);
 
     blockExplorerAction = new QAction(QIcon(":/icons/blockexplorer"), tr("&Block Explorer"), this);
-    blockExplorerAction->setToolTip(tr("Official Syndicate Block Explorer"));
+    blockExplorerAction->setToolTip(tr("Official SnapCoin Block Explorer"));
     blockExplorerAction->setCheckable(true);
     blockExplorerAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
     tabGroup->addAction(blockExplorerAction);
@@ -336,14 +336,14 @@ void BitcoinGUI::createActions()
     quitAction->setToolTip(tr("Quit application"));
     quitAction->setShortcut(QKeySequence(Qt::CTRL + Qt::Key_Q));
     quitAction->setMenuRole(QAction::QuitRole);
-    aboutAction = new QAction(tr("&About Syndicate"), this);
-    aboutAction->setToolTip(tr("Show information about Syndicate"));
+    aboutAction = new QAction(tr("&About SnapCoin"), this);
+    aboutAction->setToolTip(tr("Show information about SnapCoin"));
     aboutAction->setMenuRole(QAction::AboutRole);
     aboutQtAction = new QAction(tr("About &Qt"), this);
     aboutQtAction->setToolTip(tr("Show information about Qt"));
     aboutQtAction->setMenuRole(QAction::AboutQtRole);
     optionsAction = new QAction(tr("&Options..."), this);
-    optionsAction->setToolTip(tr("Modify configuration options for Syndicate"));
+    optionsAction->setToolTip(tr("Modify configuration options for SnapCoin"));
     optionsAction->setMenuRole(QAction::PreferencesRole);
     toggleHideAction = new QAction(QIcon(":/icons/bitcoin"), tr("&Show / Hide"), this);
     encryptWalletAction = new QAction(tr("&Encrypt Wallet..."), this);
@@ -490,7 +490,7 @@ void BitcoinGUI::setClientModel(ClientModel *clientModel)
 #endif
             if(trayIcon)
             {
-                trayIcon->setToolTip(tr("Syndicate client") + QString(" ") + tr("[testnet]"));
+                trayIcon->setToolTip(tr("SnapCoin client") + QString(" ") + tr("[testnet]"));
                 trayIcon->setIcon(QIcon(":/icons/toolbar_testnet"));
                 toggleHideAction->setIcon(QIcon(":/icons/toolbar_testnet"));
             }
@@ -571,7 +571,7 @@ void BitcoinGUI::createTrayIcon()
     trayIcon = new QSystemTrayIcon(this);
     trayIconMenu = new QMenu(this);
     trayIcon->setContextMenu(trayIconMenu);
-    trayIcon->setToolTip(tr("Syndicate client"));
+    trayIcon->setToolTip(tr("SnapCoin client"));
     trayIcon->setIcon(QIcon(":/icons/toolbar"));
     connect(trayIcon, SIGNAL(activated(QSystemTrayIcon::ActivationReason)),
             this, SLOT(trayIconActivated(QSystemTrayIcon::ActivationReason)));
@@ -642,7 +642,7 @@ void BitcoinGUI::setNumConnections(int count)
     default: icon = fUseBlackTheme ? ":/icons/black/connect_4" : ":/icons/connect_4"; break;
     }
     labelConnectionsIcon->setPixmap(QIcon(icon).pixmap(STATUSBAR_ICONSIZE,STATUSBAR_ICONSIZE));
-    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to Syndicate network", "", count));
+    labelConnectionsIcon->setToolTip(tr("%n active connection(s) to SnapCoin network", "", count));
 }
 
 void BitcoinGUI::setNumBlocks(int count)
@@ -732,7 +732,7 @@ void BitcoinGUI::setNumBlocks(int count)
 
 void BitcoinGUI::message(const QString &title, const QString &message, bool modal, unsigned int style)
 {
-    QString strTitle = tr("Syndicate") + " - ";
+    QString strTitle = tr("SnapCoin") + " - ";
     // Default to information icon
     int nMBoxIcon = QMessageBox::Information;
     int nNotifyIcon = Notificator::Information;
@@ -1023,7 +1023,7 @@ void BitcoinGUI::dropEvent(QDropEvent *event)
         if (nValidUrisFound)
             gotoSendCoinsPage();
         else
-            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters."));
+            notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters."));
     }
 
     event->acceptProposedAction();
@@ -1038,7 +1038,7 @@ void BitcoinGUI::handleURI(QString strURI)
         gotoSendCoinsPage();
     }
     else
-        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters."));
+        notificator->notify(Notificator::Warning, tr("URI handling"), tr("URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters."));
 }
 
 void BitcoinGUI::setEncryptionStatus(int status)

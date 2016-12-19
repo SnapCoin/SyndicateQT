@@ -78,7 +78,7 @@ map<uint256, set<uint256> > mapOrphanTransactionsByPrev;
 // Constant stuff for coinbase transactions we create:
 CScript COINBASE_FLAGS;
 
-const string strMessageMagic = "Syndicate Signed Message:\n";
+const string strMessageMagic = "SnapCoin Signed Message:\n";
 
 std::set<uint256> setValidatedTx;
 
@@ -3340,7 +3340,7 @@ struct CImportingNow
 
 void ThreadImport(std::vector<boost::filesystem::path> vImportFiles)
 {
-    RenameThread("Syndicate-loadblk");
+    RenameThread("SnapCoin-loadblk");
 
     CImportingNow imp;
 

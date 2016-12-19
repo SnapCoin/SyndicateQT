@@ -39,7 +39,7 @@ System requirements
 --------------------
 
 C++ compilers are memory-hungry. It is recommended to have at least 1 GB of
-memory available when compiling SyndicateCoin Core. With 512MB of memory or less
+memory available when compiling SnapCoinCoin Core. With 512MB of memory or less
 compilation will take much longer due to swap thrashing.
 
 Dependency Build Instructions: Ubuntu & Debian
@@ -77,7 +77,7 @@ Optional:
 Dependencies for the GUI: Ubuntu & Debian
 -----------------------------------------
 
-If you want to build Syndicate-Qt, make sure that the required packages for Qt development
+If you want to build SnapCoin-Qt, make sure that the required packages for Qt development
 are installed. Qt 5 is necessary to build the GUI.
 If both Qt 4 and Qt 5 are installed, Qt 5 will be used.
 
@@ -89,7 +89,7 @@ libqrencode (optional) can be installed with:
 
     sudo apt-get install libqrencode-dev
 
-Once these are installed, they will be found by configure and a Syndicate-qt executable will be
+Once these are installed, they will be found by configure and a SnapCoin-qt executable will be
 built by default.
 
 Berkeley DB
@@ -97,10 +97,10 @@ Berkeley DB
 It is recommended to use Berkeley DB 4.8. If you have to build it yourself:
 
 ```bash
-Syndicate_ROOT=$(pwd)
+SnapCoin_ROOT=$(pwd)
 
-# Pick some path to install BDB to, here we create a directory within the Syndicate directory
-BDB_PREFIX="${Syndicate_ROOT}/db4"
+# Pick some path to install BDB to, here we create a directory within the SnapCoin directory
+BDB_PREFIX="${SnapCoin_ROOT}/db4"
 mkdir -p $BDB_PREFIX
 
 # Fetch the source and verify that it is not tampered with
@@ -115,8 +115,8 @@ cd db-4.8.30.NC/build_unix/
 ../dist/configure --enable-cxx --disable-shared --with-pic --prefix=$BDB_PREFIX
 make install
 
-# Configure SyndicateCoin Core to use our own-built instance of BDB
-cd $Syndicate_ROOT
+# Configure SnapCoinCoin Core to use our own-built instance of BDB
+cd $SnapCoin_ROOT
 ./autogen.sh
 ./configure LDFLAGS="-L${BDB_PREFIX}/lib/" CPPFLAGS="-I${BDB_PREFIX}/include/" # (other args...)
 ```
@@ -125,25 +125,25 @@ Notes
 -----
 1) You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-2) The release is built with GCC and then "strip Syndicated" to strip the debug
+2) The release is built with GCC and then "strip SnapCoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
-To Build Syndicated
+To Build SnapCoind
 --------
 
 With UPNP:
 
     cd src && \
     make -f makefile.unix && \
-    strip Syndicated
+    strip SnapCoind
 
 (Recommended) Without UPNP:
 
     cd src && \
     make -f makefile.unix USE_UPNP= && \
-    strip Syndicated
+    strip SnapCoind
 
-To Build Syndicate-QT
+To Build SnapCoin-QT
 --------
 
 With UPNP:
@@ -175,7 +175,7 @@ If you need to build miniupnpc yourself:
 
 Security
 --------
-To help make your Syndicate installation more secure by making certain attacks impossible to
+To help make your SnapCoin installation more secure by making certain attacks impossible to
 exploit even if a vulnerability is found, you can take the following measures:
 
 * Position Independent Executable
@@ -192,7 +192,7 @@ exploit even if a vulnerability is found, you can take the following measures:
     make -f makefile.unix ... -e PIE=1
 
     To test that you have built PIE executable, install scanelf, part of paxutils, and use:
-    scanelf -e ./Syndicate
+    scanelf -e ./SnapCoin
 
     The output should contain:
      TYPE
@@ -200,13 +200,13 @@ exploit even if a vulnerability is found, you can take the following measures:
 
 * Non-executable Stack
     If the stack is executable then trivial stack based buffer overflow exploits are possible if
-    vulnerable buffers are found. By default, Syndicate should be built with a non-executable stack
+    vulnerable buffers are found. By default, SnapCoin should be built with a non-executable stack
     but if one of the libraries it uses asks for an executable stack or someone makes a mistake
     and uses a compiler extension which requires an executable stack, it will silently build an
     executable without the non-executable stack protection.
 
     To verify that the stack is non-executable after compiling use:
-    scanelf -e ./Syndicate
+    scanelf -e ./SnapCoin
 
     the output should contain:
     STK/REL/PTL

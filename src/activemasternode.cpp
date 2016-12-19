@@ -9,7 +9,7 @@
 #include "clientversion.h"
 
 //
-// Bootup the masternode, look for a 500 SYNX input and register on the network
+// Bootup the masternode, look for a 500 SNAP input and register on the network
 //
 void CActiveMasternode::ManageStatus()
 {
@@ -96,7 +96,7 @@ void CActiveMasternode::ManageStatus()
             	return;
             }
 
-            /* donations are not supported in Syndicate.conf */
+            /* donations are not supported in SnapCoin.conf */
             CScript donationAddress = CScript();
             int donationPercentage = 0;
 

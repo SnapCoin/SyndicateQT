@@ -67,7 +67,7 @@ struct MessageTableEntry
     }
 };
 
-/** Interface to Syndicate Secure Messaging from Qt view code. */
+/** Interface to SnapCoin Secure Messaging from Qt view code. */
 class MessageModel : public QAbstractTableModel
 {
     Q_OBJECT

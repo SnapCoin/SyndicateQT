@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Syndicate</source>
-        <translation>Sobre Syndicate</translation>
+        <source>About SnapCoin</source>
+        <translation>Sobre SnapCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Syndicate&lt;/b&gt; version</source>
-        <translation>versió &lt;b&gt;Syndicate&lt;/b&gt;</translation>
+        <source>&lt;b&gt;SnapCoin&lt;/b&gt; version</source>
+        <translation>versió &lt;b&gt;SnapCoin&lt;/b&gt;</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Syndicate developers</source>
+Copyright © 2014 The SnapCoin developers</source>
         <translation>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Syndicate developers</translation>
+Copyright © 2014 The SnapCoin developers</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Aquestes són les teves adreces de Syndicate per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
+        <source>These are your SnapCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Aquestes són les teves adreces de SnapCoin per rebre els pagaments. És possible que vulgueu donar una diferent a cada remitent per a poder realitzar un seguiment de qui li está pagant.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Syndicate address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça Syndicate</translation>
+        <source>Sign a message to prove you own a SnapCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;una adreça SnapCoin</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Syndicate address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça Syndicate especificada.</translation>
+        <source>Verify a message to ensure it was signed with a specified SnapCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb una adreça SnapCoin especificada.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Syndicate tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
+        <source>SnapCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SnapCoin tancarà ara per acabar el procés de xifrat. Recordeu que l&apos;encriptació del seu moneder no pot protegir completament les seves monedes de ser robades pel malware que pugui infectar al seu equip.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Syndicate</source>
-        <translation>Mostra informació sobre Syndicate</translation>
+        <source>Show information about SnapCoin</source>
+        <translation>Mostra informació sobre SnapCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Syndicate address</source>
-        <translation>Enviar monedes a una adreça Syndicate</translation>
+        <source>Send coins to a SnapCoin address</source>
+        <translation>Enviar monedes a una adreça SnapCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Syndicate</source>
-        <translation>Modificar les opcions de configuració per a Syndicate</translation>
+        <source>Modify configuration options for SnapCoin</source>
+        <translation>Modificar les opcions de configuració per a SnapCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Syndicate</source>
-        <translation>Syndicate</translation>
+        <source>SnapCoin</source>
+        <translation>SnapCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Syndicate</source>
-        <translation>&amp;Sobre Syndicate</translation>
+        <source>&amp;About SnapCoin</source>
+        <translation>&amp;Sobre SnapCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Syndicate client</source>
-        <translation>Client Syndicate</translation>
+        <source>SnapCoin client</source>
+        <translation>Client SnapCoin</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Syndicate network</source>
-        <translation><numerusform>%n conexió activa a la xarxa Syndicate</numerusform><numerusform>%n conexions actives a la xarxa Syndicate</numerusform></translation>
+        <source>%n active connection(s) to SnapCoin network</source>
+        <translation><numerusform>%n conexió activa a la xarxa SnapCoin</numerusform><numerusform>%n conexions actives a la xarxa SnapCoin</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -596,8 +596,8 @@ Address: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</source>
-        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça Syndicate no vàlida o paràmetres URI malformats.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters.</source>
+        <translation>l&apos;URI no es pot analitzar! Això pot ser causat per una adreça SnapCoin no vàlida o paràmetres URI malformats.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -719,8 +719,8 @@ Address: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Syndicate can no longer continue safely and will quit.</source>
-        <translation>S&apos;ha produït un error fatal. Syndicate ja no pot continuar de forma segura i es tancarà.</translation>
+        <source>A fatal error occurred. SnapCoin can no longer continue safely and will quit.</source>
+        <translation>S&apos;ha produït un error fatal. SnapCoin ja no pot continuar de forma segura i es tancarà.</translation>
     </message>
 </context>
 <context>
@@ -1053,8 +1053,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Syndicate address.</source>
-        <translation>La direcció introduïda &quot;%1&quot; no és una adreça Syndicate vàlida.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SnapCoin address.</source>
+        <translation>La direcció introduïda &quot;%1&quot; no és una adreça SnapCoin vàlida.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1072,8 +1072,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Syndicate-Qt</source>
-        <translation>Syndicate-Qt</translation>
+        <source>SnapCoin-Qt</source>
+        <translation>SnapCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1145,13 +1145,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Syndicate after logging in to the system.</source>
-        <translation>Inicia automàticament Syndicate després d&apos;entrar en el sistema.</translation>
+        <source>Automatically start SnapCoin after logging in to the system.</source>
+        <translation>Inicia automàticament SnapCoin després d&apos;entrar en el sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Syndicate on system login</source>
-        <translation>&amp;Iniciar Syndicate amb l&apos;inici de sessió</translation>
+        <source>&amp;Start SnapCoin on system login</source>
+        <translation>&amp;Iniciar SnapCoin amb l&apos;inici de sessió</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1160,8 +1160,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Obrir automàticament el port de client Syndicate en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
+        <source>Automatically open the SnapCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Obrir automàticament el port de client SnapCoin en el router. Això només funciona quan el router és compatible amb UPnP i està habilitat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1170,8 +1170,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Syndicate network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Connecteu-vos a la xarxa Syndicate través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
+        <source>Connect to the SnapCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Connecteu-vos a la xarxa SnapCoin través d&apos;un proxy SOCKS (per exemple, quan es connecta a través de Tor).</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1245,8 +1245,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Syndicate.</source>
-        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar Syndicate.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SnapCoin.</source>
+        <translation>L&apos;idioma de la interfície d&apos;usuari es pot configurar aquí. Aquesta configuració s&apos;aplicarà després de reiniciar SnapCoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1312,8 +1312,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Syndicate.</source>
-        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar Syndicate.</translation>
+        <source>This setting will take effect after restarting SnapCoin.</source>
+        <translation>Aquesta configuració s&apos;aplicarà després de reiniciar SnapCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1331,8 +1331,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</source>
-        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa Syndicate després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SnapCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>La informació mostrada pot estar fora de data. El seu moneder es sincronitza automàticament amb la xarxa SnapCoin després d&apos;establir una connexió, però aquest procés no s&apos;ha completat encara.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1405,7 +1405,7 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start Syndicate: click-to-pay handler</source>
+        <source>Cannot start SnapCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1573,8 +1573,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Syndicate-Qt help message to get a list with possible Syndicate command-line options.</source>
-        <translation>Mostra el missatge d&apos;ajuda de Syndicate-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres Syndicate.</translation>
+        <source>Show the SnapCoin-Qt help message to get a list with possible SnapCoin command-line options.</source>
+        <translation>Mostra el missatge d&apos;ajuda de SnapCoin-Qt per obtenir una llista amb les possibles opcions de línia d&apos;ordres SnapCoin.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1593,13 +1593,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Syndicate - Debug window</source>
-        <translation>Syndicate - Finestra Depuració</translation>
+        <source>SnapCoin - Debug window</source>
+        <translation>SnapCoin - Finestra Depuració</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Syndicate Core</source>
-        <translation>Nucli Syndicate</translation>
+        <source>SnapCoin Core</source>
+        <translation>Nucli SnapCoin</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1608,8 +1608,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Obriu el fitxer de registre de depuració Syndicate des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
+        <source>Open the SnapCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Obriu el fitxer de registre de depuració SnapCoin des del directori de dades actual. Això pot trigar uns segons en els arxius de registre de grans dimensions.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1618,8 +1618,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Syndicate RPC console.</source>
-        <translation>Benvingut a la consola RPC de Syndicate.</translation>
+        <source>Welcome to the SnapCoin RPC console.</source>
+        <translation>Benvingut a la consola RPC de SnapCoin.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1727,8 +1727,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SYNX</source>
-        <translation>123.456 SYNX {0.00 ?}</translation>
+        <source>0.00 SNAP</source>
+        <translation>123.456 SNAP {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1797,8 +1797,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SYNX</source>
-        <translation>123.456 SYNX</translation>
+        <source>123.456 SNAP</source>
+        <translation>123.456 SNAP</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1812,8 +1812,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Syndicate (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça SnapCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1912,8 +1912,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Syndicate address</source>
-        <translation>ADVERTÈNCIA: Direcció Syndicate invàlida</translation>
+        <source>WARNING: Invalid SnapCoin address</source>
+        <translation>ADVERTÈNCIA: Direcció SnapCoin invàlida</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1986,8 +1986,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Syndicate (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça SnapCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2047,8 +2047,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Syndicate address</source>
-        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça Syndicate</translation>
+        <source>Sign the message to prove you own this SnapCoin address</source>
+        <translation>Signar un missatge per demostrar que és propietari d&apos;aquesta adreça SnapCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2079,8 +2079,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Syndicate address</source>
-        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça Syndicate especificada.</translation>
+        <source>Verify the message to ensure it was signed with the specified SnapCoin address</source>
+        <translation>Comproveu el missatge per assegurar-se que es va signar amb l&apos;adreça SnapCoin especificada.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2090,8 +2090,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Introdueix una adreça Syndicate (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Introdueix una adreça SnapCoin (p.ex. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2100,8 +2100,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Syndicate signature</source>
-        <translation>Introduïu la signatura Syndicate</translation>
+        <source>Enter SnapCoin signature</source>
+        <translation>Introduïu la signatura SnapCoin</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2679,8 +2679,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Syndicate version</source>
-        <translation>versió Syndicate</translation>
+        <source>SnapCoin version</source>
+        <translation>versió SnapCoin</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Syndicated</source>
-        <translation>Enviar comandes a -server o Syndicated</translation>
+        <source>Send command to -server or SnapCoind</source>
+        <translation>Enviar comandes a -server o SnapCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Syndicate.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: Syndicate.conf)</translation>
+        <source>Specify configuration file (default: SnapCoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: SnapCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Syndicated.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: Syndicated.pid)</translation>
+        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: SnapCoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2732,13 +2732,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Syndicaterpc
+rpcuser=SnapCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SnapCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2844,8 +2844,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Syndicate will not work properly.</source>
-        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni Syndicate no funcionarà correctament.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SnapCoin will not work properly.</source>
+        <translation>Avís: Comproveu que la data i hora de l&apos;equip siguin correctes! Si el seu rellotge és erroni SnapCoin no funcionarà correctament.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3152,7 +3152,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Syndicate is shutting down.</source>
+        <source>Initialization sanity check failed. SnapCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3217,13 +3217,13 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Syndicate</source>
-        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de Syndicate</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SnapCoin</source>
+        <translation>Error en carregar wallet.dat: El moneder requereix la versió més recent de SnapCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Syndicate to complete</source>
-        <translation>El moneder necessita ser reescrita: reiniciar Syndicate per completar</translation>
+        <source>Wallet needed to be rewritten: restart SnapCoin to complete</source>
+        <translation>El moneder necessita ser reescrita: reiniciar SnapCoin per completar</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3287,8 +3287,8 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Syndicate is probably already running.</source>
-        <translation>No es pot enllaçar a %s en aquest equip. Syndicate probablement ja estigui en funcionament.</translation>
+        <source>Unable to bind to %s on this computer. SnapCoin is probably already running.</source>
+        <translation>No es pot enllaçar a %s en aquest equip. SnapCoin probablement ja estigui en funcionament.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3327,7 +3327,7 @@ Executar una ordre quan es rep un avís rellevant (%s en cmd es substitueix per 
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Syndicate is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SnapCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

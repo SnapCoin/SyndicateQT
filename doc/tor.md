@@ -1,7 +1,7 @@
-TOR Support in SyndicateCoin
+TOR Support in SnapCoinCoin
 =======================
 
-It is possible to run SyndicateCoin as a Tor hidden service, and connect to such services.
+It is possible to run SnapCoinCoin as a Tor hidden service, and connect to such services.
 
 The following directions assume you have a Tor proxy running on port 9050. Many distributions
 default to having a SOCKS proxy listening on port 9050, but others may not.
@@ -10,10 +10,10 @@ https://www.torproject.org/docs/faq.html.en#TBBSocksPort for how to properly
 configure Tor.
 
 
-1. Run SyndicateCoin behind a Tor proxy
+1. Run SnapCoinCoin behind a Tor proxy
 ---------------------------------
 
-The first step is running SyndicateCoin behind a Tor proxy. This will already make all
+The first step is running SnapCoinCoin behind a Tor proxy. This will already make all
 outgoing connections be anonimized, but more is possible.
 
 -proxy=ip:port  Set the proxy server. If SOCKS5 is selected (default), this proxy
@@ -34,26 +34,26 @@ outgoing connections be anonimized, but more is possible.
 
 In a typical situation, this suffices to run behind a Tor proxy:
 
-  ./Syndicated -proxy=127.0.0.1:9050
+  ./SnapCoind -proxy=127.0.0.1:9050
 
 
-2. Run a SyndicateCoin hidden server
+2. Run a SnapCoinCoin hidden server
 ------------------------------
 
 If you configure your Tor system accordingly, it is possible to make your node also
 reachable from the Tor network. Add these lines to your /etc/tor/torrc (or equivalent
 config file):
 
-  HiddenServiceDir /var/lib/tor/Syndicate-service/
+  HiddenServiceDir /var/lib/tor/SnapCoin-service/
   HiddenServicePort 22349 127.0.0.1:22349
 
 The directory can be different of course, but (both) port numbers should be equal to
-your Syndicated's P2P listen port (22349 by default).
+your SnapCoind's P2P listen port (22349 by default).
 
 -externalip=X   You can tell litecoin about its publicly reachable address using
                 this option, and this can be a .onion address. Given the above
                 configuration, you can find your onion address in
-                /var/lib/tor/Syndicate-service/hostname. Onion addresses are given
+                /var/lib/tor/SnapCoin-service/hostname. Onion addresses are given
                 preference for your node to advertize itself with, for connections
                 coming from unroutable addresses (such as 127.0.0.1, where the
                 Tor proxy typically runs).
@@ -70,18 +70,18 @@ your Syndicated's P2P listen port (22349 by default).
 
 In a typical situation, where you're only reachable via Tor, this should suffice:
 
-  ./Syndicated -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
+  ./SnapCoind -proxy=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -listen
 
 (obviously, replace the Onion address with your own). If you don't care too much
 about hiding your node, and want to be reachable on IPv4 as well, additionally
 specify:
 
-  ./Syndicated ... -discover
+  ./SnapCoind ... -discover
 
 and open port 22349 on your firewall (or use -upnp).
 
 If you only want to use Tor to reach onion addresses, but not use it as a proxy
 for normal IPv4/IPv6 communication, use:
 
-  ./Syndicated -tor=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
+  ./SnapCoind -tor=127.0.0.1:9050 -externalip=57qr3yd1nyntf5k.onion -discover
 

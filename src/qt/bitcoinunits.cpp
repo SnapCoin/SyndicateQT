@@ -41,9 +41,9 @@ QString BitcoinUnits::name(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("SYNX");
-    case mBTC: return QString("mSYNX");
-    case uBTC: return QString::fromUtf8("μSYNX");
+    case BTC: return QString("SNAP");
+    case mBTC: return QString("mSNAP");
+    case uBTC: return QString::fromUtf8("μSNAP");
     default: return QString("???");
     }
 }
@@ -52,9 +52,9 @@ QString BitcoinUnits::description(int unit)
 {
     switch(unit)
     {
-    case BTC: return QString("Syndicates");
-    case mBTC: return QString("Milli-Syndicates (1 / 1,000)");
-    case uBTC: return QString("Micro-Syndicates (1 / 1,000,000)");
+    case BTC: return QString("SnapCoins");
+    case mBTC: return QString("Milli-SnapCoins (1 / 1,000)");
+    case uBTC: return QString("Micro-SnapCoins (1 / 1,000,000)");
     default: return QString("???");
     }
 }

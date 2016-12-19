@@ -174,7 +174,7 @@ public:
 
         bool isValid() const { return valid; }
 
-        // Copy operator and constructor Syndicate the context
+        // Copy operator and constructor SnapCoin the context
         UnlockContext(const UnlockContext& obj) { CopyFrom(obj); }
         UnlockContext& operator=(const UnlockContext& rhs) { CopyFrom(rhs); return *this; }
     private:

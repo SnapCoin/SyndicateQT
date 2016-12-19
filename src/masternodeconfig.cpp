@@ -45,7 +45,7 @@ bool CMasternodeConfig::read(boost::filesystem::path path) {
             }
             CBitcoinAddress address(donationAddress);
             if (!address.IsValid()) {
-                LogPrintf("Invalid Syndicate address in masternode.conf line: %s\n", line.c_str());
+                LogPrintf("Invalid SnapCoin address in masternode.conf line: %s\n", line.c_str());
                 streamConfig.close();
                 return false;
             }

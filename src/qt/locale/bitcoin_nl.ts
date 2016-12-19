@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Syndicate</source>
-        <translation>Over Syndicate</translation>
+        <source>About SnapCoin</source>
+        <translation>Over SnapCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Syndicate&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Syndicate&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;SnapCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SnapCoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Syndicate developers</source>
+Copyright © 2014 The SnapCoin developers</source>
         <translation>Copyright © 2009-2014 De Bitcoin ontwikkelaars
 Copyright © 2012-2014 De NovaCoin ontwikkelaars
-Copyright © 2014 De Syndicate ontwikkelaars</translation>
+Copyright © 2014 De SnapCoin ontwikkelaars</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Dit zijn al jou Syndicate adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
+        <source>These are your SnapCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Dit zijn al jou SnapCoin adressen om betalingen mee te ontvangen. Je kunt iedere verzender een apart adres geven zodat je kunt volgen wie jou betaald.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Syndicate address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Syndicate adres bezit.</translation>
+        <source>Sign a message to prove you own a SnapCoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een SnapCoin adres bezit.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,8 +90,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Syndicate address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Syndicate adres</translation>
+        <source>Verify a message to ensure it was signed with a specified SnapCoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek SnapCoin adres</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Syndicate zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
+        <source>SnapCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SnapCoin zal nu sluiten om het versleutel proces te voltooien. Onthou dat het versleutelen van je portemonnee je niet volledig beschermt tegen diefstal van munten door malware op je computer.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Syndicate</source>
-        <translation>Toon informatie over Syndicate</translation>
+        <source>Show information about SnapCoin</source>
+        <translation>Toon informatie over SnapCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Syndicate address</source>
-        <translation>Verstuur munten naar een Syndicate adres</translation>
+        <source>Send coins to a SnapCoin address</source>
+        <translation>Verstuur munten naar een SnapCoin adres</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Syndicate</source>
-        <translation>Verander configuratie opties voor Syndicate</translation>
+        <source>Modify configuration options for SnapCoin</source>
+        <translation>Verander configuratie opties voor SnapCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Syndicate</source>
-        <translation>Syndicate</translation>
+        <source>SnapCoin</source>
+        <translation>SnapCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Syndicate</source>
-        <translation>&amp;Over Syndicate</translation>
+        <source>&amp;About SnapCoin</source>
+        <translation>&amp;Over SnapCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Syndicate client</source>
-        <translation>Syndicate client</translation>
+        <source>SnapCoin client</source>
+        <translation>SnapCoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Syndicate network</source>
-        <translation><numerusform>%n actieve verbinding naar Syndicate netwerk</numerusform><numerusform>%n actieve verbindingen naar Syndicate netwerk</numerusform></translation>
+        <source>%n active connection(s) to SnapCoin network</source>
+        <translation><numerusform>%n actieve verbinding naar SnapCoin netwerk</numerusform><numerusform>%n actieve verbindingen naar SnapCoin netwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -600,8 +600,8 @@ Adres: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</source>
-        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig Syndicate adres of incorrecte URI parameters.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters.</source>
+        <translation>URI kan niet ontleedt worden! Mogelijke oorzaken zijn een ongeldig SnapCoin adres of incorrecte URI parameters.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -723,8 +723,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Syndicate can no longer continue safely and will quit.</source>
-        <translation>Een fatale fout . Syndicate kan niet langer veilig doorgaan en sluit af.</translation>
+        <source>A fatal error occurred. SnapCoin can no longer continue safely and will quit.</source>
+        <translation>Een fatale fout . SnapCoin kan niet langer veilig doorgaan en sluit af.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Syndicate address.</source>
-        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig Syndicate adres.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SnapCoin address.</source>
+        <translation>Het ingevoerde adres &quot;%1&quot; is geen geldig SnapCoin adres.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Syndicate-Qt</source>
-        <translation>Syndicate-Qt</translation>
+        <source>SnapCoin-Qt</source>
+        <translation>SnapCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Syndicate after logging in to the system.</source>
-        <translation>Automatisch starten van Syndicate na inloggen van het systeem.</translation>
+        <source>Automatically start SnapCoin after logging in to the system.</source>
+        <translation>Automatisch starten van SnapCoin na inloggen van het systeem.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Syndicate on system login</source>
-        <translation>&amp;Start Syndicate bij systeem aanmelding</translation>
+        <source>&amp;Start SnapCoin on system login</source>
+        <translation>&amp;Start SnapCoin bij systeem aanmelding</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>De Syndicate client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
+        <source>Automatically open the SnapCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>De SnapCoin client poort automatisch openen op de router. Dit werkt alleen wanneer uw router UPnP ondersteunt en deze is ingeschakeld.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Syndicate network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbinding maken met het Syndicate netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
+        <source>Connect to the SnapCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbinding maken met het SnapCoin netwerk via een SOCKS proxy (bijvoorbeeld als U gebruik maakt van Tor)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,8 +1249,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Syndicate.</source>
-        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na Syndicate opnieuw op te starten.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SnapCoin.</source>
+        <translation>De user interface-taal kan hier ingesteld worden. Deze instelling word toegepast na SnapCoin opnieuw op te starten.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1316,8 +1316,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Syndicate.</source>
-        <translation>Deze instelling word toegepast na een restart van Syndicate.</translation>
+        <source>This setting will take effect after restarting SnapCoin.</source>
+        <translation>Deze instelling word toegepast na een restart van SnapCoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1335,8 +1335,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</source>
-        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het Syndicate netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SnapCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>De weergegeven informatie kan verouderd zijn, Je portemonnee synchroniseerd automatisch met het SnapCoin netwerk nadat er verbindig is gemaakt, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1409,7 +1409,7 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start Syndicate: click-to-pay handler</source>
+        <source>Cannot start SnapCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1577,8 +1577,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Syndicate-Qt help message to get a list with possible Syndicate command-line options.</source>
-        <translation>Laat het Syndicate-QT help bericht zien om een lijst te krijgen met mogelijke Syndicate command-regel opties.</translation>
+        <source>Show the SnapCoin-Qt help message to get a list with possible SnapCoin command-line options.</source>
+        <translation>Laat het SnapCoin-QT help bericht zien om een lijst te krijgen met mogelijke SnapCoin command-regel opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Syndicate - Debug window</source>
-        <translation>Syndicate - Debugscherm</translation>
+        <source>SnapCoin - Debug window</source>
+        <translation>SnapCoin - Debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Syndicate Core</source>
-        <translation>Syndicate Kern</translation>
+        <source>SnapCoin Core</source>
+        <translation>SnapCoin Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Open het Syndicate debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
+        <source>Open the SnapCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Open het SnapCoin debug log bestand van de huidige data map. Dit kan een paar seconden duren voor grote log bestanden.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Syndicate RPC console.</source>
-        <translation>Welkom bij de Syndicate RPC console.</translation>
+        <source>Welcome to the SnapCoin RPC console.</source>
+        <translation>Welkom bij de SnapCoin RPC console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SYNX</source>
-        <translation>123.456 SYNX</translation>
+        <source>0.00 SNAP</source>
+        <translation>123.456 SNAP</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SYNX</source>
-        <translation>123.456 SYNX</translation>
+        <source>123.456 SNAP</source>
+        <translation>123.456 SNAP</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Syndicate adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een SnapCoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Syndicate address</source>
-        <translation>WAARSCHUWING: Ongeldig Syndicate adres</translation>
+        <source>WARNING: Invalid SnapCoin address</source>
+        <translation>WAARSCHUWING: Ongeldig SnapCoin adres</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Syndicate adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een SnapCoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Syndicate address</source>
-        <translation>Teken een bericht om te bewijzen dat je een Syndicate adres bezit.</translation>
+        <source>Sign the message to prove you own this SnapCoin address</source>
+        <translation>Teken een bericht om te bewijzen dat je een SnapCoin adres bezit.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Syndicate address</source>
-        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek Syndicate adres</translation>
+        <source>Verify the message to ensure it was signed with the specified SnapCoin address</source>
+        <translation>Verifieer een bericht om zeker te zijn dat deze is ondertekend met een specifiek SnapCoin adres</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Voeg een Syndicate adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Voeg een SnapCoin adres in (bijv. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Syndicate signature</source>
-        <translation>Voer Syndicate handtekening in</translation>
+        <source>Enter SnapCoin signature</source>
+        <translation>Voer SnapCoin handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+172"/>
-        <source>Syndicate version</source>
-        <translation>Syndicate versie</translation>
+        <source>SnapCoin version</source>
+        <translation>SnapCoin versie</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Syndicated</source>
-        <translation>Verstuur commando naar -server of Syndicated</translation>
+        <source>Send command to -server or SnapCoind</source>
+        <translation>Verstuur commando naar -server of SnapCoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Syndicate.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: Syndicate.conf)</translation>
+        <source>Specify configuration file (default: SnapCoin.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: SnapCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Syndicated.pid)</source>
-        <translation>Selecteer pid bestand (standaard: Syndicate.conf)</translation>
+        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <translation>Selecteer pid bestand (standaard: SnapCoin.conf)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,13 +2736,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Syndicaterpc
+rpcuser=SnapCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SnapCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2848,8 +2848,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="-102"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Syndicate will not work properly.</source>
-        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is Syndicate zal niet goed werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SnapCoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer of de datum en tijd van de computer juist zijn! Als uw klok verkeerd is SnapCoin zal niet goed werken.</translation>
     </message>
     <message>
         <location line="+131"/>
@@ -3150,7 +3150,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Syndicate is shutting down.</source>
+        <source>Initialization sanity check failed. SnapCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3215,13 +3215,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Syndicate</source>
-        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van Syndicate</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SnapCoin</source>
+        <translation>Fout bij laden van wallet.dat: Portemonnee vereist een nieuwere versie van SnapCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Syndicate to complete</source>
-        <translation>Portemonnee moet herschreven worden: herstart Syndicate om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart SnapCoin to complete</source>
+        <translation>Portemonnee moet herschreven worden: herstart SnapCoin om te voltooien</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3285,8 +3285,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+124"/>
-        <source>Unable to bind to %s on this computer. Syndicate is probably already running.</source>
-        <translation>Niet mogelijk om %s op deze computer. Syndicate is waarschijnlijk al geopened.</translation>
+        <source>Unable to bind to %s on this computer. SnapCoin is probably already running.</source>
+        <translation>Niet mogelijk om %s op deze computer. SnapCoin is waarschijnlijk al geopened.</translation>
     </message>
     <message>
         <location line="-100"/>
@@ -3325,7 +3325,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Syndicate is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SnapCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

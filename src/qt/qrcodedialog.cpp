@@ -83,7 +83,7 @@ void QRCodeDialog::genCode()
 
 QString QRCodeDialog::getURI()
 {
-    QString ret = QString("Syndicate:%1").arg(address);
+    QString ret = QString("SnapCoin:%1").arg(address);
     int paramCount = 0;
 
     ui->outUri->clear();

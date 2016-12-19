@@ -1,13 +1,13 @@
-[![Stories in Ready](https://badge.waffle.io/SyndicateLabs/SyndicateQT.png?label=ready&title=Ready)](https://waffle.io/SyndicateLabs/SyndicateQT)
+[![Stories in Ready](https://badge.waffle.io/SnapCoinLabs/SnapCoinQT.png?label=ready&title=Ready)](https://waffle.io/SnapCoinLabs/SnapCoinQT)
 
-[![Throughput Graph](https://graphs.waffle.io/SyndicateLabs/SyndicateQT/throughput.svg)](https://waffle.io/SyndicateLabs/SyndicateQT/metrics/throughput)
+[![Throughput Graph](https://graphs.waffle.io/SnapCoinLabs/SnapCoinQT/throughput.svg)](https://waffle.io/SnapCoinLabs/SnapCoinQT/metrics/throughput)
 
-Welcome to Syndicate!
+Welcome to SnapCoin!
 ===================
 
-Syndicate is a Proof-of-work & Proof-of stake based cryptocurrency which utilizes updated & working Darksend, Masternodes, Masternode Staking, Block Explorer, & Encrypted Messaging.
+SnapCoin is a Proof-of-work & Proof-of stake based cryptocurrency which utilizes updated & working Darksend, Masternodes, Masternode Staking, Block Explorer, & Encrypted Messaging.
 
-http://blockexplorer.syndicatelabs.com
+http://blockexplorer.SnapCoinlabs.com
 
 ----------
 
@@ -43,7 +43,7 @@ Block Rewards
 
 > - Starting block: 180
 > - 3 Hour min age
-> - 10 SYNX per block, 5 per
+> - 10 SNAP per block, 5 per
 
 Specifications
 -------------
@@ -53,5 +53,5 @@ Specifications
 > - 3 Hour min stake age
 > - Difficulty adjusts every block
 > - 100 Block coin maturity
-> - 5000 SYNX per masternode
+> - 5000 SNAP per masternode
 > - Staking masternode wallet

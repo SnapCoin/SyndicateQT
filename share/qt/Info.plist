@@ -7,23 +7,23 @@
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleGetInfoString</key>
-	<string>Syndicate-Qt</string>
+	<string>SnapCoin-Qt</string>
 	<key>CFBundleSignature</key>
 	<string>????</string>
 	<key>CFBundleExecutable</key>
-	<string>Syndicate-Qt</string>
+	<string>SnapCoin-Qt</string>
 	<key>CFBundleIdentifier</key>
-	<string>co.Syndicate.Syndicate-Qt</string>
+	<string>co.SnapCoin.SnapCoin-Qt</string>
         <key>CFBundleURLTypes</key>
         <array>
           <dict>
             <key>CFBundleTypeRole</key>
             <string>Editor</string>
             <key>CFBundleURLName</key>
-            <string>co.Syndicate.SyndicatePayment</string>
+            <string>co.SnapCoin.SnapCoinPayment</string>
             <key>CFBundleURLSchemes</key>
             <array>
-              <string>Syndicate</string>
+              <string>SnapCoin</string>
             </array>
           </dict>
         </array>

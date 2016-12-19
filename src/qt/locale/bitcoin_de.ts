@@ -3,22 +3,22 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Syndicate</source>
-        <translation>Über Syndicate</translation>
+        <source>About SnapCoin</source>
+        <translation>Über SnapCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Syndicate&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Syndicate&lt;/b&gt; Version</translation>
+        <source>&lt;b&gt;SnapCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SnapCoin&lt;/b&gt; Version</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2016 The Syndicate developers</source>
+Copyright © 2016 The SnapCoin developers</source>
         <translation><source>Copyright © 2009-2014 Die Bitcoin Entwickler
 Copyright © 2012-2014 Die NovaCoin Entwickler
-Copyright © 2016 Die Syndicate Entwickler</source></translation>
+Copyright © 2016 Die SnapCoin Entwickler</source></translation>
     </message>
     <message>
         <location line="+15"/>
@@ -60,8 +60,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Das sind Ihre Syndicate Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt hat.</translation>
+        <source>These are your SnapCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Das sind Ihre SnapCoin Adressen um Zahlungen zu erhalten. Sie werden vielleicht verschiedene an jeden Sender vergeben, damit Sie im Auge behalten können wer Sie bezahlt hat.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -75,8 +75,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Syndicate address</source>
-        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine Syndicate Adresse besitzen</translation>
+        <source>Sign a message to prove you own a SnapCoin address</source>
+        <translation>Signieren Sie eine Nachricht um zu beweisen, dass Sie eine SnapCoin Adresse besitzen</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -90,7 +90,7 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Syndicate address</source>
+        <source>Verify a message to ensure it was signed with a specified SnapCoin address</source>
         <translation>Nachrichten verifizieren, um sicherzustellen, dass diese mit den angegebenen Bitcoin-Adressen signiert wurden</translation>
     </message>
     <message>
@@ -258,8 +258,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Syndicate wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihres Wallets keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet.</translation>
+        <source>SnapCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SnapCoin wird sich schließen um den Verschlüsselungsvorgang abzuschließen. Beachten Sie, dass die Verschlüsselung Ihres Wallets keinen vollständigen Schutz vor Diebstahl Ihrer Coins duch auf Ihrem Computer installierte Malware gewährleistet.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -352,8 +352,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Syndicate</source>
-        <translation>Informationen über Syndicate anzeigen</translation>
+        <source>Show information about SnapCoin</source>
+        <translation>Informationen über SnapCoin anzeigen</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -392,13 +392,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Syndicate address</source>
-        <translation>Senden Sie Coins an eine Syndicate Adresse</translation>
+        <source>Send coins to a SnapCoin address</source>
+        <translation>Senden Sie Coins an eine SnapCoin Adresse</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Syndicate</source>
-        <translation>Konfigurationsoptionen für Syndicate ändern</translation>
+        <source>Modify configuration options for SnapCoin</source>
+        <translation>Konfigurationsoptionen für SnapCoin ändern</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -438,8 +438,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Syndicate</source>
-        <translation>Syndicate</translation>
+        <source>SnapCoin</source>
+        <translation>SnapCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -448,8 +448,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Syndicate</source>
-        <translation>&amp;Über Syndicate</translation>
+        <source>&amp;About SnapCoin</source>
+        <translation>&amp;Über SnapCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,13 +500,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Syndicate client</source>
-        <translation>Syndicate Client</translation>
+        <source>SnapCoin client</source>
+        <translation>SnapCoin Client</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Syndicate network</source>
-        <translation><numerusform>%n aktive Verbindung zum Syndicate Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum Syndicate Netzwerk</numerusform></translation>
+        <source>%n active connection(s) to SnapCoin network</source>
+        <translation><numerusform>%n aktive Verbindung zum SnapCoin Netzwerk</numerusform><numerusform>%n aktive Verbindungen zum SnapCoin Netzwerk</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -599,8 +599,8 @@ Adresse: %4</translation>
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</source>
-        <translation>Die URI konnte nicht verarbeitet werden! Die Ursache hierfür kann eine ungültige Syndicate Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters.</source>
+        <translation>Die URI konnte nicht verarbeitet werden! Die Ursache hierfür kann eine ungültige SnapCoin Adresse oder eine fehlerhafte Angabe der URI Parameter sein.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -722,8 +722,8 @@ Adresse: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Syndicate can no longer continue safely and will quit.</source>
-        <translation>Ein fataler Fehler ist aufgetreten. Syndicate kann nicht fortgesetzt werden und wird beendet.</translation>
+        <source>A fatal error occurred. SnapCoin can no longer continue safely and will quit.</source>
+        <translation>Ein fataler Fehler ist aufgetreten. SnapCoin kann nicht fortgesetzt werden und wird beendet.</translation>
     </message>
 </context>
 <context>
@@ -1057,8 +1057,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Syndicate address.</source>
-        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige Syndicate Adresse.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SnapCoin address.</source>
+        <translation>Die eingegebene Adresse &quot;%1&quot; ist keine gültige SnapCoin Adresse.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1076,8 +1076,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Syndicate-Qt</source>
-        <translation>Syndicate-Qt</translation>
+        <source>SnapCoin-Qt</source>
+        <translation>SnapCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1149,13 +1149,13 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Syndicate after logging in to the system.</source>
-        <translation>Automatisch Syndicate starten beim Einloggen in das System.</translation>
+        <source>Automatically start SnapCoin after logging in to the system.</source>
+        <translation>Automatisch SnapCoin starten beim Einloggen in das System.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Syndicate on system login</source>
-        <translation>&amp;Starte Syndicate bei Systemstart</translation>
+        <source>&amp;Start SnapCoin on system login</source>
+        <translation>&amp;Starte SnapCoin bei Systemstart</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1164,8 +1164,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatisch den Syndicate client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
+        <source>Automatically open the SnapCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatisch den SnapCoin client port auf dem Router öffnen. Das funktioniert nur wenn der Router UPnP unterstützt und UPnP aktiviert ist.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1174,8 +1174,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Syndicate network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Über einen SOCKS5-Proxy mit dem Syndicate-Netzwerk verbinden.</translation>
+        <source>Connect to the SnapCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Über einen SOCKS5-Proxy mit dem SnapCoin-Netzwerk verbinden.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1249,7 +1249,7 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Syndicate.</source>
+        <source>The user interface language can be set here. This setting will take effect after restarting SnapCoin.</source>
         <translation>Die Sprache der GUI kann hier verändert werden. Die Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1260,7 +1260,7 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <message>
         <location line="+13"/>
         <source>Choose the default subdivision unit to show in the interface and when sending coins.</source>
-        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von Syndicates angezeigt werden soll.</translation>
+        <translation>Wählen Sie die Standarduntereinheit, die in der Benutzeroberfläche und beim Überweisen von SnapCoins angezeigt werden soll.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -1316,7 +1316,7 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Syndicate.</source>
+        <source>This setting will take effect after restarting SnapCoin.</source>
         <translation>Diese Einstellung wird nach einem Neustart übernommen.</translation>
     </message>
     <message>
@@ -1335,8 +1335,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem Syndicate Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SnapCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Die angezeigte Information kann falsch sein. Die Brieftasche synchronisiert automatisch mit dem SnapCoin Netzwerk nachdem eine Verbindung zustande gekommen ist, aber dieser Prozess ist nicht abgeschlossen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1409,8 +1409,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start Syndicate: click-to-pay handler</source>
-        <translation>Kann Syndicate nicht starten: Klick-Handler für die Bezahlung</translation>
+        <source>Cannot start SnapCoin: click-to-pay handler</source>
+        <translation>Kann SnapCoin nicht starten: Klick-Handler für die Bezahlung</translation>
     </message>
 </context>
 <context>
@@ -1577,8 +1577,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Syndicate-Qt help message to get a list with possible Syndicate command-line options.</source>
-        <translation>Zeige die Syndicate-Qt Hilfe um eine Liste der möglichen Syndicate Kommandozeilen Parameter zu erhalten.</translation>
+        <source>Show the SnapCoin-Qt help message to get a list with possible SnapCoin command-line options.</source>
+        <translation>Zeige die SnapCoin-Qt Hilfe um eine Liste der möglichen SnapCoin Kommandozeilen Parameter zu erhalten.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1597,13 +1597,13 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="-104"/>
-        <source>Syndicate - Debug window</source>
-        <translation>Syndicate - Debug Fenster</translation>
+        <source>SnapCoin - Debug window</source>
+        <translation>SnapCoin - Debug Fenster</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Syndicate Core</source>
-        <translation>Syndicate Kern</translation>
+        <source>SnapCoin Core</source>
+        <translation>SnapCoin Kern</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1612,8 +1612,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Öffne die Syndicate Debug Logdatei im aktuellen Datenverzeichnis. Das kann für große Dateien einige Sekunden dauern.</translation>
+        <source>Open the SnapCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Öffne die SnapCoin Debug Logdatei im aktuellen Datenverzeichnis. Das kann für große Dateien einige Sekunden dauern.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1622,8 +1622,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Syndicate RPC console.</source>
-        <translation>Willkommen in der Syndicate RPC Konsole.</translation>
+        <source>Welcome to the SnapCoin RPC console.</source>
+        <translation>Willkommen in der SnapCoin RPC Konsole.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1731,8 +1731,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SYNX</source>
-        <translation>0.00 SYNX</translation>
+        <source>0.00 SNAP</source>
+        <translation>0.00 SNAP</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1801,8 +1801,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SYNX</source>
-        <translation>123.456 SYNX</translation>
+        <source>123.456 SNAP</source>
+        <translation>123.456 SNAP</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1816,8 +1816,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Syndicate address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
-        <translation>Gib eine Syndicate Adresse ein (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
+        <source>Enter a SnapCoin address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
+        <translation>Gib eine SnapCoin Adresse ein (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1916,8 +1916,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Syndicate address</source>
-        <translation>Warnung: Ungültige Syndicate Adresse</translation>
+        <source>WARNING: Invalid SnapCoin address</source>
+        <translation>Warnung: Ungültige SnapCoin Adresse</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1990,8 +1990,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Syndicate address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
-        <translation>Geben Sie eine Syndicate Adresse ein (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
+        <source>Enter a SnapCoin address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
+        <translation>Geben Sie eine SnapCoin Adresse ein (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
     </message>
 </context>
 <context>
@@ -2051,8 +2051,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Syndicate address</source>
-        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser Syndicate Adresse bist.</translation>
+        <source>Sign the message to prove you own this SnapCoin address</source>
+        <translation>Signiere die Nachricht um zu beweisen das du Besitzer dieser SnapCoin Adresse bist.</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2083,8 +2083,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Syndicate address</source>
-        <translation>Überprüfen ob die Nachricht mit der angegebenen Syndicate Adresse signiert wurde</translation>
+        <source>Verify the message to ensure it was signed with the specified SnapCoin address</source>
+        <translation>Überprüfen ob die Nachricht mit der angegebenen SnapCoin Adresse signiert wurde</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2094,8 +2094,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Syndicate address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
-        <translation>Syndicate Adresse eingeben (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
+        <source>Enter a SnapCoin address (e.g. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</source>
+        <translation>SnapCoin Adresse eingeben (z.B. SSKYwMhQQt9DcWozt7zA1tR3DmRuw1gT6b)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2104,8 +2104,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Syndicate signature</source>
-        <translation>Syndicate Signatur eingeben</translation>
+        <source>Enter SnapCoin signature</source>
+        <translation>SnapCoin Signatur eingeben</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2683,8 +2683,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Syndicate version</source>
-        <translation>Syndicate Version</translation>
+        <source>SnapCoin version</source>
+        <translation>SnapCoin Version</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2693,8 +2693,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Syndicated</source>
-        <translation>Kommando versenden an -server oder Syndicated </translation>
+        <source>Send command to -server or SnapCoind</source>
+        <translation>Kommando versenden an -server oder SnapCoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Syndicate.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: Syndicate.conf)</translation>
+        <source>Specify configuration file (default: SnapCoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: SnapCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Syndicated.pid)</source>
-        <translation>PID Datei angeben (Standard: Syndicate.pid)</translation>
+        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <translation>PID Datei angeben (Standard: SnapCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2736,24 +2736,24 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Syndicaterpc
+rpcuser=SnapCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SnapCoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, das Setzen von rpcpassword in der Konfigurationsdatei:
 %s
 Es wird empfohlen das folgende, zufällige Passwort zu verwenden:
-rpcuser=Syndicaterpc
+rpcuser=SnapCoinrpc
 rpcpassword=%s
 (Sie müssen sich dieses Passwort nicht merken)
 Benutzername und Passwort müssen sich unterscheiden.
 Wenn die Datei nicht existiert, sollte sie mir der Berechtigung nur-lesen für den Eigentümer konfiguriert werden.
 Es ist auch empfohlen alertnotify zu aktivieren um bei Problemen verständigt zu werden;
-Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@foo.com
+Zum Beispiel: alertnotify=echo %%s | mail -s &quot;SnapCoin Alarm&quot; admin@foo.com
         
 </translation>
     </message>
@@ -2859,8 +2859,8 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@f
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Syndicate will not work properly.</source>
-        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird Syndicate nicht richtig funktionieren.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SnapCoin will not work properly.</source>
+        <translation>Wanung : Bitte prüfen Sie ob Datum und Uhrzeit richtig eingestellt sind. Wenn das Datum falsch ist wird SnapCoin nicht richtig funktionieren.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3166,8 +3166,8 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@f
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Syndicate is shutting down.</source>
-        <translation>Initialization der Integritätsprüfung fehlgeschlagen. Syndicate wird beendet.</translation>
+        <source>Initialization sanity check failed. SnapCoin is shutting down.</source>
+        <translation>Initialization der Integritätsprüfung fehlgeschlagen. SnapCoin wird beendet.</translation>
     </message>
     <message>
         <location line="+50"/>
@@ -3231,13 +3231,13 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@f
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Syndicate</source>
-        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der Syndicate Brieftasche.</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SnapCoin</source>
+        <translation>Fehler beim Laden wallet.dat. Brieftasche benötigt neuere Version der SnapCoin Brieftasche.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Syndicate to complete</source>
-        <translation>Brieftasche muss neu geschrieben werden. Starte die Syndicate Brieftasche neu zum komplettieren.</translation>
+        <source>Wallet needed to be rewritten: restart SnapCoin to complete</source>
+        <translation>Brieftasche muss neu geschrieben werden. Starte die SnapCoin Brieftasche neu zum komplettieren.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3301,7 +3301,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@f
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Syndicate is probably already running.</source>
+        <source>Unable to bind to %s on this computer. SnapCoin is probably already running.</source>
         <translation>Fehler beim anbinden %s auf diesem Computer. BlaclCoin Client läuft wahrscheinlich bereits.</translation>
     </message>
     <message>
@@ -3341,7 +3341,7 @@ Zum Beispiel: alertnotify=echo %%s | mail -s &quot;Syndicate Alarm&quot; admin@f
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Syndicate is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SnapCoin is probably already running.</source>
         <translation>Datenverzeichnis %s kann nicht gesperrt werden. Evtl. wurde %s bereits gestartet.</translation>
     </message>
     <message>

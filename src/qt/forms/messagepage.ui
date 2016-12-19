@@ -135,7 +135,7 @@
      <item row="0" column="1">
       <widget class="QPushButton" name="sendButton">
        <property name="toolTip">
-        <string>Sign a message to prove you own a Syndicate address</string>
+        <string>Sign a message to prove you own a SnapCoin address</string>
        </property>
        <property name="text">
         <string>&amp;Send</string>

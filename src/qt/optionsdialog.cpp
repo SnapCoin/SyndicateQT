@@ -144,7 +144,7 @@ void OptionsDialog::setMapper()
 
     /* Darksend Rounds */
     mapper->addMapping(ui->darksendRounds, OptionsModel::DarksendRounds);
-    mapper->addMapping(ui->anonymizeSyndicate, OptionsModel::AnonymizeSyndicateAmount);
+    mapper->addMapping(ui->anonymizeSnapCoin, OptionsModel::AnonymizeSnapCoinAmount);
 }
 
 void OptionsDialog::enableApplyButton()
@@ -196,7 +196,7 @@ void OptionsDialog::showRestartWarning_Proxy()
 {
     if(!fRestartWarningDisplayed_Proxy)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Syndicate."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting SnapCoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Proxy = true;
     }
 }
@@ -205,7 +205,7 @@ void OptionsDialog::showRestartWarning_Lang()
 {
     if(!fRestartWarningDisplayed_Lang)
     {
-        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting Syndicate."), QMessageBox::Ok);
+        QMessageBox::warning(this, tr("Warning"), tr("This setting will take effect after restarting SnapCoin."), QMessageBox::Ok);
         fRestartWarningDisplayed_Lang = true;
     }
 }

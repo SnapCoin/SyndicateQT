@@ -1,5 +1,5 @@
 ---
-name: "Syndicate-deps"
+name: "SnapCoin-deps"
 suites:
 - "trusty"
 architectures:
@@ -135,5 +135,5 @@ script: |
   #
   #
   cd $STAGING
-  find include lib bin host | sort | zip -X@ $OUTDIR/Syndicate-deps-linux${GBUILD_BITS}-gitian.zip
+  find include lib bin host | sort | zip -X@ $OUTDIR/SnapCoin-deps-linux${GBUILD_BITS}-gitian.zip
 

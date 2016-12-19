@@ -3,19 +3,19 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Syndicate</source>
-        <translation>O Syndicate</translation>
+        <source>About SnapCoin</source>
+        <translation>O SnapCoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Syndicate&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Syndicate&lt;/b&gt; verzija</translation>
+        <source>&lt;b&gt;SnapCoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;SnapCoin&lt;/b&gt; verzija</translation>
     </message>
     <message>
         <location line="+41"/>
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
-Copyright © 2014 The Syndicate developers</source>
+Copyright © 2014 The SnapCoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -58,8 +58,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-43"/>
-        <source>These are your Syndicate addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>To so vaši Syndicate naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
+        <source>These are your SnapCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>To so vaši SnapCoin naslovi za prejemanje plačil. Priporočeno je da vsakemu pošiljatelju namenite drugega in tako dobite večji pregled nad svojimi nakazili.</translation>
     </message>
     <message>
         <location line="+53"/>
@@ -73,8 +73,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign a message to prove you own a Syndicate address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Syndicate naslova</translation>
+        <source>Sign a message to prove you own a SnapCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva SnapCoin naslova</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -88,8 +88,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-10"/>
-        <source>Verify a message to ensure it was signed with a specified Syndicate address</source>
-        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim Syndicate naslovom</translation>
+        <source>Verify a message to ensure it was signed with a specified SnapCoin address</source>
+        <translation>Potrdi sporočilo, da zagotovite, da je bilo podpisano z izbranim SnapCoin naslovom</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -256,8 +256,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+82"/>
-        <source>Syndicate will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
-        <translation>Syndicate se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
+        <source>SnapCoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your coins from being stolen by malware infecting your computer.</source>
+        <translation>SnapCoin se bo sedaj zaprl, da dokonča proces šifriranje. Pomnite, da tudi šifriranje vaše denarnice ne more v celoti zaščititi vaših kovancev pred krajo z zlonamernimi programi in računalniškimi virusi, če ti okužijo vaš računalnik.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -350,8 +350,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Syndicate</source>
-        <translation>Pokaži informacije o Syndicate</translation>
+        <source>Show information about SnapCoin</source>
+        <translation>Pokaži informacije o SnapCoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -390,13 +390,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="-55"/>
-        <source>Send coins to a Syndicate address</source>
-        <translation>Pošlji kovance na Syndicate naslov</translation>
+        <source>Send coins to a SnapCoin address</source>
+        <translation>Pošlji kovance na SnapCoin naslov</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>Modify configuration options for Syndicate</source>
-        <translation>Spremeni nastavitve za Syndicate</translation>
+        <source>Modify configuration options for SnapCoin</source>
+        <translation>Spremeni nastavitve za SnapCoin</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -436,8 +436,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="-214"/>
         <location line="+551"/>
-        <source>Syndicate</source>
-        <translation>Syndicate</translation>
+        <source>SnapCoin</source>
+        <translation>SnapCoin</translation>
     </message>
     <message>
         <location line="-551"/>
@@ -446,8 +446,8 @@ This product includes software developed by the OpenSSL Project for use in the O
     </message>
     <message>
         <location line="+193"/>
-        <source>&amp;About Syndicate</source>
-        <translation>&amp;O Syndicate</translation>
+        <source>&amp;About SnapCoin</source>
+        <translation>&amp;O SnapCoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -498,13 +498,13 @@ This product includes software developed by the OpenSSL Project for use in the O
     <message>
         <location line="+0"/>
         <location line="+58"/>
-        <source>Syndicate client</source>
-        <translation>Syndicate program</translation>
+        <source>SnapCoin client</source>
+        <translation>SnapCoin program</translation>
     </message>
     <message numerus="yes">
         <location line="+70"/>
-        <source>%n active connection(s) to Syndicate network</source>
-        <translation><numerusform>%n aktivne povezave na Syndicate omrežje</numerusform><numerusform>%n aktivnih povezav na Syndicate omrežje</numerusform><numerusform>%n aktivnih povezav na Syndicate omrežje</numerusform><numerusform>%n aktivnih povezav na Syndicate omrežje</numerusform></translation>
+        <source>%n active connection(s) to SnapCoin network</source>
+        <translation><numerusform>%n aktivne povezave na SnapCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SnapCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SnapCoin omrežje</numerusform><numerusform>%n aktivnih povezav na SnapCoin omrežje</numerusform></translation>
     </message>
     <message>
         <location line="+488"/>
@@ -598,8 +598,8 @@ Naslov: %4
     <message>
         <location line="-15"/>
         <location line="+15"/>
-        <source>URI can not be parsed! This can be caused by an invalid Syndicate address or malformed URI parameters.</source>
-        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega Syndicate naslova ali slabih parametrov URI.</translation>
+        <source>URI can not be parsed! This can be caused by an invalid SnapCoin address or malformed URI parameters.</source>
+        <translation>URI ne more biti razčlenjen! To se lahko zgodi zaradi neveljavnega SnapCoin naslova ali slabih parametrov URI.</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -721,8 +721,8 @@ Naslov: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+104"/>
-        <source>A fatal error occurred. Syndicate can no longer continue safely and will quit.</source>
-        <translation>Prišlo je do usodne napake. Program Syndicate se ne more več varno nadaljevati in se bo zato zaprl. </translation>
+        <source>A fatal error occurred. SnapCoin can no longer continue safely and will quit.</source>
+        <translation>Prišlo je do usodne napake. Program SnapCoin se ne more več varno nadaljevati in se bo zato zaprl. </translation>
     </message>
 </context>
 <context>
@@ -1055,8 +1055,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Syndicate address.</source>
-        <translation>Vneseni naslov &quot;%1&quot; ni veljaven Syndicate naslov.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid SnapCoin address.</source>
+        <translation>Vneseni naslov &quot;%1&quot; ni veljaven SnapCoin naslov.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -1074,8 +1074,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../guiutil.cpp" line="+426"/>
         <location line="+12"/>
-        <source>Syndicate-Qt</source>
-        <translation>Syndicate-Qt</translation>
+        <source>SnapCoin-Qt</source>
+        <translation>SnapCoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -1147,13 +1147,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Syndicate after logging in to the system.</source>
-        <translation>Avtomatično zaženi Syndicate ob zagonu sistema.</translation>
+        <source>Automatically start SnapCoin after logging in to the system.</source>
+        <translation>Avtomatično zaženi SnapCoin ob zagonu sistema.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Syndicate on system login</source>
-        <translation>&amp;Zaženi Syndicate ob prijavi v sistem</translation>
+        <source>&amp;Start SnapCoin on system login</source>
+        <translation>&amp;Zaženi SnapCoin ob prijavi v sistem</translation>
     </message>
     <message>
         <location line="+21"/>
@@ -1162,8 +1162,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Syndicate client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Avtomatično odpri vrata na routerju za Syndicate program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
+        <source>Automatically open the SnapCoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Avtomatično odpri vrata na routerju za SnapCoin program. To deluje le če vaš router podpira UPnP in je ta omogočen. </translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1172,8 +1172,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Syndicate network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Poveži se na Syndicate omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
+        <source>Connect to the SnapCoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Poveži se na SnapCoin omrežje skozi SOCKS proxy (npr. ko se povezujete prek Tora)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1247,8 +1247,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Syndicate.</source>
-        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu Syndicate aplikacije. </translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting SnapCoin.</source>
+        <translation>Tu lahko nastavite jezik uporabniškega vmesnika. Nastavitve bodo pričele delovati ob ponovnem zagonu SnapCoin aplikacije. </translation>
     </message>
     <message>
         <location line="+11"/>
@@ -1314,8 +1314,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Syndicate.</source>
-        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu Syndicate aplikacije</translation>
+        <source>This setting will take effect after restarting SnapCoin.</source>
+        <translation>Ta nastavitev bo pričela delovati ob ponovnem zagonu SnapCoin aplikacije</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1333,8 +1333,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location line="+46"/>
         <location line="+247"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Syndicate network after a connection is established, but this process has not completed yet.</source>
-        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z Syndicate omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the SnapCoin network after a connection is established, but this process has not completed yet.</source>
+        <translation>Prikazane informacije so morda zastarele. Vaša denarnica se avtomatično sinhronizira z SnapCoin omrežjem, ko je vzpostavljena povezava, toda ta proces še ni bil zaključen.</translation>
     </message>
     <message>
         <location line="-173"/>
@@ -1407,7 +1407,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start Syndicate: click-to-pay handler</source>
+        <source>Cannot start SnapCoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1575,8 +1575,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Syndicate-Qt help message to get a list with possible Syndicate command-line options.</source>
-        <translation>Prikaži Syndicate-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice Syndicate aplikacije</translation>
+        <source>Show the SnapCoin-Qt help message to get a list with possible SnapCoin command-line options.</source>
+        <translation>Prikaži SnapCoin-Qt sporočilo za pomoč , ki prikaže vse možnosti ukazne vrstice SnapCoin aplikacije</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1595,13 +1595,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="-104"/>
-        <source>Syndicate - Debug window</source>
-        <translation>Syndicate - okno za odpravljanje napak</translation>
+        <source>SnapCoin - Debug window</source>
+        <translation>SnapCoin - okno za odpravljanje napak</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Syndicate Core</source>
-        <translation>Syndicate jedro</translation>
+        <source>SnapCoin Core</source>
+        <translation>SnapCoin jedro</translation>
     </message>
     <message>
         <location line="+256"/>
@@ -1610,8 +1610,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Syndicate debug log file from the current data directory. This can take a few seconds for large log files.</source>
-        <translation>Odpri Syndicate datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
+        <source>Open the SnapCoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <translation>Odpri SnapCoin datoteko zapisov odpravljanja napak iz trenutnega direktorija podatkov. Če so datoteke zapisov velike, to lahko traja nekaj sekund.</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -1620,8 +1620,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="+325"/>
-        <source>Welcome to the Syndicate RPC console.</source>
-        <translation>Dobrodošli v Syndicate RPC konzoli.</translation>
+        <source>Welcome to the SnapCoin RPC console.</source>
+        <translation>Dobrodošli v SnapCoin RPC konzoli.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1729,8 +1729,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <location line="+86"/>
         <location line="+86"/>
         <location line="+32"/>
-        <source>0.00 SYNX</source>
-        <translation>123.456 SYNX {0.00 ?}</translation>
+        <source>0.00 SNAP</source>
+        <translation>123.456 SNAP {0.00 ?}</translation>
     </message>
     <message>
         <location line="-191"/>
@@ -1799,8 +1799,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+16"/>
-        <source>123.456 SYNX</source>
-        <translation>123.456 SYNX</translation>
+        <source>123.456 SNAP</source>
+        <translation>123.456 SNAP</translation>
     </message>
     <message>
         <location line="+31"/>
@@ -1814,8 +1814,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsdialog.cpp" line="-173"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite Syndicate naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SnapCoin naslov (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="+15"/>
@@ -1914,8 +1914,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+247"/>
-        <source>WARNING: Invalid Syndicate address</source>
-        <translation>OPOZORILO: Neveljaven Syndicate naslov</translation>
+        <source>WARNING: Invalid SnapCoin address</source>
+        <translation>OPOZORILO: Neveljaven SnapCoin naslov</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -1988,8 +1988,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite Syndicate naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SnapCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
 </context>
 <context>
@@ -2049,8 +2049,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Syndicate address</source>
-        <translation>Podpišite sporočilo, kot dokazilo lastništva Syndicate naslova</translation>
+        <source>Sign the message to prove you own this SnapCoin address</source>
+        <translation>Podpišite sporočilo, kot dokazilo lastništva SnapCoin naslova</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2081,8 +2081,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Syndicate address</source>
-        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim Syndicate naslovom</translation>
+        <source>Verify the message to ensure it was signed with the specified SnapCoin address</source>
+        <translation>Potrdite sporočilo, da zagotovite, da je bilo podpisano z izbranim SnapCoin naslovom</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2092,8 +2092,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Syndicate address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
-        <translation>Vnesite Syndicate naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
+        <source>Enter a SnapCoin address (e.g. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</source>
+        <translation>Vnesite SnapCoin naslov (npr. B8gZqgY4r2RoEdqYk3QsAqFckyf9pRHN6i)</translation>
     </message>
     <message>
         <location line="-2"/>
@@ -2102,8 +2102,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Syndicate signature</source>
-        <translation>Vnesite Syndicate podpis</translation>
+        <source>Enter SnapCoin signature</source>
+        <translation>Vnesite SnapCoin podpis</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -2681,8 +2681,8 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+173"/>
-        <source>Syndicate version</source>
-        <translation>Syndicate različica</translation>
+        <source>SnapCoin version</source>
+        <translation>SnapCoin različica</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2691,7 +2691,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or Syndicated</source>
+        <source>Send command to -server or SnapCoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2711,13 +2711,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: Syndicate.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: Syndicate.conf)</translation>
+        <source>Specify configuration file (default: SnapCoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: SnapCoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: Syndicated.pid)</source>
-        <translation>Določi pid datoteko (privzeto: Syndicate.pid)</translation>
+        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <translation>Določi pid datoteko (privzeto: SnapCoin.pid)</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -2734,13 +2734,13 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
         <source>%s, you must set a rpcpassword in the configuration file:
 %s
 It is recommended you use the following random password:
-rpcuser=Syndicaterpc
+rpcuser=SnapCoinrpc
 rpcpassword=%s
 (you do not need to remember this password)
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;SnapCoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2846,8 +2846,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="-103"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Syndicate will not work properly.</source>
-        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno Syndicate ne bo deloval.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong SnapCoin will not work properly.</source>
+        <translation>Opozorilo: Prosimo preverite svoj datum in čas svojega računalnika! Če je vaša ura nastavljena napačno SnapCoin ne bo deloval.</translation>
     </message>
     <message>
         <location line="+132"/>
@@ -3153,7 +3153,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+10"/>
-        <source>Initialization sanity check failed. Syndicate is shutting down.</source>
+        <source>Initialization sanity check failed. SnapCoin is shutting down.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -3218,13 +3218,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+4"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Syndicate</source>
-        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo Syndicate</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of SnapCoin</source>
+        <translation>Napaka pri nalaganju wallet.dat: denarnica zahteva novejšo verzijo SnapCoin</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Wallet needed to be rewritten: restart Syndicate to complete</source>
-        <translation>Denarnica mora biti prepisana: ponovno odprite Syndicate za dokončanje</translation>
+        <source>Wallet needed to be rewritten: restart SnapCoin to complete</source>
+        <translation>Denarnica mora biti prepisana: ponovno odprite SnapCoin za dokončanje</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -3288,8 +3288,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+125"/>
-        <source>Unable to bind to %s on this computer. Syndicate is probably already running.</source>
-        <translation>Navezava v %s  na tem računalniku ni mogoča Syndicate aplikacija je verjetno že zagnana.</translation>
+        <source>Unable to bind to %s on this computer. SnapCoin is probably already running.</source>
+        <translation>Navezava v %s  na tem računalniku ni mogoča SnapCoin aplikacija je verjetno že zagnana.</translation>
     </message>
     <message>
         <location line="-101"/>
@@ -3328,7 +3328,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Syndicate Alert&quot; admin@fo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Syndicate is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. SnapCoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>

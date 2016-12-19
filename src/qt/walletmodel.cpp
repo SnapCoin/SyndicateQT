@@ -781,7 +781,7 @@ WalletModel::UnlockContext::~UnlockContext()
 
 void WalletModel::UnlockContext::CopyFrom(const UnlockContext& rhs)
 {
-    // Syndicate context; old object no longer relocks wallet
+    // SnapCoin context; old object no longer relocks wallet
     *this = rhs;
     rhs.relock = false;
 }
