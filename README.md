@@ -7,7 +7,7 @@ Welcome to SnapCoin!
 
 SnapCoin is a Proof-of-work & Proof-of stake based cryptocurrency which utilizes updated & working Darksend, Masternodes, Masternode Staking, Block Explorer, & Encrypted Messaging.
 
-http://blockexplorer.SnapCoinlabs.com
+http://blockexplorer.snapcoin.online
 
 ----------
 
