@@ -80,12 +80,12 @@ public:
         genesis.nVersion = 1;
         genesis.nTime    = 1482148800;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact(); 
-        genesis.nNonce   = 0;
+        genesis.nNonce   = 160999;
 
         hashGenesisBlock = genesis.GetHash();
 
-        assert(hashGenesisBlock == uint256("0x00008b645780949ad9a346df272390396d10f6c67a3bef9e2fe2114854786ac3"));
-        assert(genesis.hashMerkleRoot == uint256("0xffc835b4aab6d5002db95706cd864c5614dfb1d7cfda1ce3beedf740a9aca558"));
+        assert(hashGenesisBlock == uint256("0x000051fdd04a3f981af4e262300400899f872e1702b23350daf42a92d511de21"));
+        assert(genesis.hashMerkleRoot == uint256("0x43a718a724b3e2bc50c17c94905aef2d78ea669959cf87631b81a239caa89a07"));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = list_of(63);
@@ -101,7 +101,7 @@ public:
 		
 
         nPoolMaxTransactions = 3;
-        strDarksendPoolDummyAddress = "SnapCoinDarksendPoo1DummyAdy4viSr";
+        strDarksendPoolDummyAddress = "SMYn33emFMZ1Kt5S8teDdfX9vaCw8BCHpX";
         nLastPOWBlock =  5000000;
         nPOSStartBlock = 1;
     }
