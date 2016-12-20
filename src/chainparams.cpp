@@ -102,7 +102,7 @@ public:
 
         nPoolMaxTransactions = 3;
         strDarksendPoolDummyAddress = "SnapCoinDarksendPoo1DummyAdy4viSr";
-        nLastPOWBlock = 56007;
+        nLastPOWBlock =  5000000;
         nPOSStartBlock = 1;
     }
 
