@@ -16,9 +16,9 @@
         <source>Copyright © 2009-2014 The Bitcoin developers
 Copyright © 2012-2014 The NovaCoin developers
 Copyright © 2016 The SnapCoin developers</source>
-        <translation><source>Copyright © 2009-2014 Die Bitcoin Entwickler
+        <translation>Copyright © 2009-2014 Die Bitcoin Entwickler
 Copyright © 2012-2014 Die NovaCoin Entwickler
-Copyright © 2016 Die SnapCoin Entwickler</source></translation>
+Copyright © 2016 Die SnapCoin Entwickler</translation>
     </message>
     <message>
         <location line="+15"/>
