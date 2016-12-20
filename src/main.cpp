@@ -1453,10 +1453,12 @@ int64_t GetProofOfWorkReward(int nHeight, int64_t nFees)
 {
     int64_t nSubsidy = 5 * COIN;
 
-    nSubsidy >>= 500000;
+    nSubsidy >>= nHeight / 500000;
+	
+	if (pindexBest -> nHeight == 0)
+		nSubsidy = 2000000000 * COIN;
 
     return nSubsidy + nFees;
-
 }
 
 // miner's coin stake reward
