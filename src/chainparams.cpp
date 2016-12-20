@@ -66,7 +66,7 @@ public:
         nRPCPort = 26565;
         bnProofOfWorkLimit = CBigNum(~uint256(0) >> 16);
 
-        const char* pszTimestamp = "June 13th, 2016: ISIS claims responsibility for the shooting massacre at Orlando FL gay night club yesterday morning leaving 49 dead & many wounded.";
+        const char* pszTimestamp = "December 19, 2016: Truck plows through Berlin Christmas market; 12 killed";
         std::vector<CTxIn> vin;
         vin.resize(1);
         vin[0].scriptSig = CScript() << 0 << CBigNum(42) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
