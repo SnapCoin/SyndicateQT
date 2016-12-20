@@ -2691,7 +2691,7 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
+        <source>Send command to -server or snapcoind</source>
         <translation>Pošlji ukaz na -server ali blackoind</translation>
     </message>
     <message>
@@ -2711,12 +2711,12 @@ Ta oznaka se obarva rdeče, če je prioriteta manjša kot &quot;srednja&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Določi konfiguracijsko datoteko (privzeto: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Določi konfiguracijsko datoteko (privzeto: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation>Določi pid datoteko (privzeto: SnapCoin.pid)</translation>
     </message>
     <message>

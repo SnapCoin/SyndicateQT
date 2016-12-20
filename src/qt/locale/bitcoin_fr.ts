@@ -2693,8 +2693,8 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Envoyer commande à -server ou SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Envoyer commande à -server ou snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Cela implique que des frais à hauteur d&apos;au moins %2 seront nécessaires.</
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (par défaut: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (par défaut: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Spécifier le fichier pid (par défaut: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Spécifier le fichier pid (par défaut: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

@@ -91,10 +91,10 @@ MSYS SnapCoin:
     mkdir miniupnpc
     cp *.h miniupnpc/
 
-Build SnapCoind
+Build snapcoind
 -------
 DOS prompt:
 
     cd \SnapCoin\src
     mingw32-make -f makefile.mingw
-    strip SnapCoind.exe
+    strip snapcoind.exe

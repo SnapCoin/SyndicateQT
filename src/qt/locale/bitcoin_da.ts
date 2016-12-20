@@ -2693,8 +2693,8 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Send kommando til-server eller SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Send kommando til-server eller snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Det betyder, at et gebyr på mindst %2 er påkrævet.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Angiv konfigurationsfil (default: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Angiv konfigurationsfil (default: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Angiv pid fil (standard: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Angiv pid fil (standard: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

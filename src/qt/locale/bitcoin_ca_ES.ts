@@ -2689,8 +2689,8 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Enviar comandes a -server o SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Enviar comandes a -server o snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2709,13 +2709,13 @@ En aquest cas es requereix una comisió d&apos;almenys 2%.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Especifiqueu el fitxer de configuració (per defecte: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Especifiqueu el fitxer de configuració (per defecte: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Especificar arxiu pid (per defecte: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Especificar arxiu pid (per defecte: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

@@ -2693,8 +2693,8 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Envía un comando a -server o SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Envía un comando a -server o snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2716,13 +2716,13 @@ Esto significa que se requiere una cuota de al menos %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Especifica un archivo de configuración (por defecto: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Especifica un archivo de configuración (por defecto: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Especifica un archivo pid (por defecto: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Especifica un archivo pid (por defecto: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

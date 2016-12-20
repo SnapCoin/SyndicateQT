@@ -2691,8 +2691,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>向-server服务器或SnapCoind发送命令</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>向-server服务器或snapcoind发送命令</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2714,13 +2714,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>指定配置文件(默认: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>指定配置文件(默认: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>指定pid文件(默认: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>指定pid文件(默认: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

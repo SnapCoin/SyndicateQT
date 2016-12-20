@@ -186,8 +186,8 @@ std::string HelpMessage()
 {
     string strUsage = _("Options:") + "\n";
     strUsage += "  -?                     " + _("This help message") + "\n";
-    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: SnapCoin.conf)") + "\n";
-    strUsage += "  -pid=<file>            " + _("Specify pid file (default: SnapCoind.pid)") + "\n";
+    strUsage += "  -conf=<file>           " + _("Specify configuration file (default: snapcoin.conf)") + "\n";
+    strUsage += "  -pid=<file>            " + _("Specify pid file (default: snapcoind.pid)") + "\n";
     strUsage += "  -datadir=<dir>         " + _("Specify data directory") + "\n";
     strUsage += "  -wallet=<dir>          " + _("Specify wallet file (within data directory)") + "\n";
     strUsage += "  -dbcache=<n>           " + _("Set database cache size in megabytes (default: 25)") + "\n";

@@ -2673,7 +2673,7 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
+        <source>Send command to -server or snapcoind</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2693,12 +2693,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation type="unfinished"/>
     </message>
     <message>

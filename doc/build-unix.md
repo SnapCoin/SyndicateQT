@@ -125,23 +125,23 @@ Notes
 -----
 1) You only need Berkeley DB if the wallet is enabled (see the section *Disable-Wallet mode* below).
 
-2) The release is built with GCC and then "strip SnapCoind" to strip the debug
+2) The release is built with GCC and then "strip snapcoind" to strip the debug
 symbols, which reduces the executable size by about 90%.
 
-To Build SnapCoind
+To Build snapcoind
 --------
 
 With UPNP:
 
     cd src && \
     make -f makefile.unix && \
-    strip SnapCoind
+    strip snapcoind
 
 (Recommended) Without UPNP:
 
     cd src && \
     make -f makefile.unix USE_UPNP= && \
-    strip SnapCoind
+    strip snapcoind
 
 To Build SnapCoin-QT
 --------

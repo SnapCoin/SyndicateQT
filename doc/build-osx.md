@@ -7,7 +7,7 @@ software written by Eric Young (eay@cryptsoft.com) and UPnP software written by
 Thomas Bernard.
 
 
-Mac OS X SnapCoind build instructions
+Mac OS X snapcoind build instructions
 Laszlo Hanyecz <solar@heliacal.net>
 Douglas Huff <dhuff@jrbobdobbs.org>
 
@@ -27,7 +27,7 @@ but you can get the current version from http://developer.apple.com
 
 1.  Clone the github tree to get the source code:
 
-git clone http://github.com/SnapCoindev/SnapCoincoin SnapCoin
+git clone http://github.com/snapcoindev/SnapCoincoin SnapCoin
 
 2.  Download and install MacPorts from http://www.macports.org/
 
@@ -41,14 +41,14 @@ sudo port install boost db48 openssl miniupnpc
 Optionally install qrencode (and set USE_QRCODE=1):
 sudo port install qrencode
 
-4.  Now you should be able to build SnapCoind:
+4.  Now you should be able to build snapcoind:
 
 cd SnapCoin/src
 make -f makefile.osx
 
 Run:
-  ./SnapCoind --help  # for a list of command-line options.
+  ./snapcoind --help  # for a list of command-line options.
 Run
-  ./SnapCoind -daemon # to start the SnapCoin daemon.
+  ./snapcoind -daemon # to start the SnapCoin daemon.
 Run
-  ./SnapCoind help # When the daemon is running, to get a list of RPC commands
+  ./snapcoind help # When the daemon is running, to get a list of RPC commands

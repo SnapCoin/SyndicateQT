@@ -520,7 +520,7 @@ void StartRPCThreads()
     {
         unsigned char rand_pwd[32];
         GetRandBytes(rand_pwd, 32);
-        string strWhatAmI = "To use SnapCoind";
+        string strWhatAmI = "To use snapcoind";
         if (mapArgs.count("-server"))
             strWhatAmI = strprintf(_("To use the %s option"), "\"-server\"");
         else if (mapArgs.count("-daemon"))
@@ -868,7 +868,7 @@ json_spirit::Value CRPCTable::execute(const std::string &strMethod, const json_s
 }
 
 std::string HelpExampleCli(string methodname, string args){
-    return "> SnapCoind " + methodname + " " + args + "\n";
+    return "> snapcoind " + methodname + " " + args + "\n";
 }
 
 std::string HelpExampleRpc(string methodname, string args){

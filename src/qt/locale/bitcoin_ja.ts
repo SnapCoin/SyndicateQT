@@ -2692,8 +2692,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>-server か SnapCoindへコマンドを送る。</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>-server か snapcoindへコマンドを送る。</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2712,13 +2712,13 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>設定ファイルを特定する (デファルト: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>設定ファイルを特定する (デファルト: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>pid ファイルを特定する (デフォルト: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>pid ファイルを特定する (デフォルト: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

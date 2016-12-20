@@ -2693,8 +2693,8 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Verstuur commando naar -server of SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Verstuur commando naar -server of snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Dit betekend dat een fee van %2 is vereist.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Selecteer configuratie bestand (standaard: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Selecteer configuratie bestand (standaard: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Selecteer pid bestand (standaard: SnapCoin.conf)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Selecteer pid bestand (standaard: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+2"/>

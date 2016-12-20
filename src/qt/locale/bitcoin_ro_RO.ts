@@ -2693,8 +2693,8 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Trimite comanda catre server sau SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Trimite comanda catre server sau snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,12 +2713,12 @@ Acest lucru înseamnă că o taxă de cel puțin %2 este necesară</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Specifica fisier de configurare(implicit: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Specifica fisier de configurare(implicit: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation>Speficica fisier pid(implicit: SnapCoin.pid)</translation>
     </message>
     <message>

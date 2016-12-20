@@ -54,10 +54,10 @@ bool AppInit(int argc, char* argv[])
             // First part of help message is specific to bitcoind / RPC client
             std::string strUsage = _("SnapCoin version") + " " + FormatFullVersion() + "\n\n" +
                 _("Usage:") + "\n" +
-                  "  SnapCoind [options]                     " + "\n" +
-                  "  SnapCoind [options] <command> [params]  " + _("Send command to -server or SnapCoind") + "\n" +
-                  "  SnapCoind [options] help                " + _("List commands") + "\n" +
-                  "  SnapCoind [options] help <command>      " + _("Get help for a command") + "\n";
+                  "  snapcoind [options]                     " + "\n" +
+                  "  snapcoind [options] <command> [params]  " + _("Send command to -server or snapcoind") + "\n" +
+                  "  snapcoind [options] help                " + _("List commands") + "\n" +
+                  "  snapcoind [options] help <command>      " + _("Get help for a command") + "\n";
 
             strUsage += "\n" + HelpMessage();
 

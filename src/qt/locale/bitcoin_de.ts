@@ -2693,8 +2693,8 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Kommando versenden an -server oder SnapCoind </translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Kommando versenden an -server oder snapcoind </translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,12 +2713,12 @@ Dieses Label wird rot, sofern die Priorität kleiner als &quot;medium&quot; ist.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Konfigurationsdatei angeben (Standard: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Konfigurationsdatei angeben (Standard: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation>PID Datei angeben (Standard: SnapCoin.pid)</translation>
     </message>
     <message>

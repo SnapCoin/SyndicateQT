@@ -2697,8 +2697,8 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Pošli príkaz na -server alebo SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Pošli príkaz na -server alebo snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2717,13 +2717,13 @@ To znamená, že je potrebný poplatok aspoň %2.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Zadajte konfiguračný súbor (predvolené: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Zadajte konfiguračný súbor (predvolené: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Zadajte pid súbor (predvolené: SnapCoind.pid)</translation>
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Zadajte pid súbor (predvolené: snapcoind.pid)</translation>
     </message>
     <message>
         <location line="+2"/>

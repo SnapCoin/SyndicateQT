@@ -2693,8 +2693,8 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Envoyer commande à -server ou SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Envoyer commande à -server ou snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2713,13 +2713,13 @@ Les montants inférieurs à  0.546 fois les frais minimum de relais apparaissent
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Spécifier le fichier de configuration (defaut: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Spécifier le fichier de configuration (defaut: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
-        <translation>Spécifier le fichier pid (defaut: SnapCoind.pid)
+        <source>Specify pid file (default: snapcoind.pid)</source>
+        <translation>Spécifier le fichier pid (defaut: snapcoind.pid)
 </translation>
     </message>
     <message>

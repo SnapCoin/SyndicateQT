@@ -2698,8 +2698,8 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>-sunucu veya SnapCoind&apos;ye komut gönder</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>-sunucu veya snapcoind&apos;ye komut gönder</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,12 +2718,12 @@ This label turns red, if the priority is smaller than &quot;medium&quot;.
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Konfigürasyon dosyasını belirt (varsayılan: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Konfigürasyon dosyasını belirt (varsayılan: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation>pid dosyasını belirt (varsayılan: SnapCoin.pid)</translation>
     </message>
     <message>

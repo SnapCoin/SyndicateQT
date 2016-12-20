@@ -2698,8 +2698,8 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Send command to -server or SnapCoind</source>
-        <translation>Syötä komento kohteeseen -server tai SnapCoind</translation>
+        <source>Send command to -server or snapcoind</source>
+        <translation>Syötä komento kohteeseen -server tai snapcoind</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2718,12 +2718,12 @@ Tämä tarkoittaa, että ainakin %2 rahansiirtopalkkio tarvitaan.</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Specify configuration file (default: SnapCoin.conf)</source>
-        <translation>Määritä asetustiedosto (oletus: SnapCoin.conf)</translation>
+        <source>Specify configuration file (default: snapcoin.conf)</source>
+        <translation>Määritä asetustiedosto (oletus: snapcoin.conf)</translation>
     </message>
     <message>
         <location line="+1"/>
-        <source>Specify pid file (default: SnapCoind.pid)</source>
+        <source>Specify pid file (default: snapcoind.pid)</source>
         <translation>Määritä prosessitiedosto (oletus: SnapCoin.pid)</translation>
     </message>
     <message>
