@@ -103,7 +103,7 @@ public:
         nPoolMaxTransactions = 3;
         strDarksendPoolDummyAddress = "SnapCoinDarksendPoo1DummyAdy4viSr";
         nLastPOWBlock = 56007;
-        nPOSStartBlock = 180;
+        nPOSStartBlock = 1;
     }
 
     virtual const CBlock& GenesisBlock() const { return genesis; }
