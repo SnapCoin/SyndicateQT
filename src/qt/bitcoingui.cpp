@@ -36,7 +36,6 @@
 #include "masternodemanager.h"
 #include "messagemodel.h"
 #include "messagepage.h"
-#include "blockexplorer.h"
 
 #ifdef Q_OS_MAC
 #include "macdockiconhandler.h"
@@ -130,8 +129,6 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     vbox->addWidget(transactionView);
     transactionsPage->setLayout(vbox);
 
-    blockExplorer = new BlockExplorer(this);
-
     addressBookPage = new AddressBookPage(AddressBookPage::ForEditing, AddressBookPage::SendingTab);
 
     receiveCoinsPage = new AddressBookPage(AddressBookPage::ForEditing, AddressBookPage::ReceivingTab);
@@ -152,7 +149,6 @@ BitcoinGUI::BitcoinGUI(QWidget *parent):
     centralStackedWidget->addWidget(sendCoinsPage);
     centralStackedWidget->addWidget(masternodeManagerPage);
     centralStackedWidget->addWidget(messagePage);
-    centralStackedWidget->addWidget(blockExplorer);
 
     QWidget *centralWidget = new QWidget();
     QVBoxLayout *centralLayout = new QVBoxLayout(centralWidget);
@@ -297,11 +293,6 @@ void BitcoinGUI::createActions()
     addressBookAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_5));
     tabGroup->addAction(addressBookAction);
 
-    blockExplorerAction = new QAction(QIcon(":/icons/blockexplorer"), tr("&Block Explorer"), this);
-    blockExplorerAction->setToolTip(tr("Official SnapCoin Block Explorer"));
-    blockExplorerAction->setCheckable(true);
-    blockExplorerAction->setShortcut(QKeySequence(Qt::ALT + Qt::Key_6));
-    tabGroup->addAction(blockExplorerAction);
 
     masternodeManagerAction = new QAction(QIcon(":/icons/masternodes"), tr("&Masternodes"), this);
     masternodeManagerAction->setToolTip(tr("Show Master Nodes status and configure your nodes."));
@@ -316,7 +307,6 @@ void BitcoinGUI::createActions()
     showBackupsAction = new QAction(QIcon(":/icons/browse"), tr("Show Auto&Backups"), this);
     showBackupsAction->setStatusTip(tr("S"));
 
-    connect(blockExplorerAction, SIGNAL(triggered()), this, SLOT(gotoBlockExplorer()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
     connect(overviewAction, SIGNAL(triggered()), this, SLOT(gotoOverviewPage()));
     connect(receiveCoinsAction, SIGNAL(triggered()), this, SLOT(showNormalIfMinimized()));
@@ -446,7 +436,6 @@ void BitcoinGUI::createToolBars()
         toolbar->addAction(messageAction);
     }
     netLabel = new QLabel();
-    toolbar->addAction(blockExplorerAction);
     toolbar->addAction(addressBookAction);
 
     QWidget *spacer = makeToolBarSpacer();
@@ -912,16 +901,6 @@ void BitcoinGUI::gotoMasternodeManagerPage()
 
     exportAction->setEnabled(false);
     disconnect(exportAction, SIGNAL(triggered()), 0, 0);
-}
-
-void BitcoinGUI::gotoBlockExplorer()
-{
-    blockExplorerAction->setChecked(true);
-    centralStackedWidget->setCurrentWidget(blockExplorer);
-
-    exportAction->setEnabled(false);
-    disconnect(exportAction, SIGNAL(triggered()), 0, 0);
-	connect(exportAction, SIGNAL(triggered()), blockExplorer, SLOT(exportClicked()));
 }
 
 void BitcoinGUI::gotoOverviewPage()
