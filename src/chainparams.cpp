@@ -73,12 +73,12 @@ public:
         std::vector<CTxOut> vout;
         vout.resize(1);
         vout[0].SetEmpty();
-        CTransaction txNew(1, 1465873655, vin, vout, 0);
+        CTransaction txNew(1, 1482148800, vin, vout, 0);
         genesis.vtx.push_back(txNew);
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime    = 1465873655;
+        genesis.nTime    = 1482148800;
         genesis.nBits    = bnProofOfWorkLimit.GetCompact(); 
         genesis.nNonce   = 48480;
 
